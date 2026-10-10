@@ -1,0 +1,78 @@
+import { Sigil } from '../types/game';
+
+export const SIGIL_REGISTRY: Sigil[] = [
+  {
+    id: 'sigil_wealth',
+    name: 'Sigil of Fortune',
+    description: 'Increases all coin earnings by +25%.',
+    rarity: 'Rare',
+    icon: '🪙',
+    buffType: 'passive_income',
+    buffMultiplier: 1.25,
+  },
+  {
+    id: 'sigil_speed',
+    name: 'Sigil of Swiftness',
+    description: 'Increases pet movement speed and tap power by +30%.',
+    rarity: 'Epic',
+    icon: '⚡',
+    buffType: 'speed',
+    buffMultiplier: 1.3,
+  },
+  {
+    id: 'sigil_luck',
+    name: 'Sigil of the Alchemist',
+    description: 'Increases rare egg hatch rates by +25%.',
+    rarity: 'Legendary',
+    icon: '🍀',
+    buffType: 'luck',
+    buffMultiplier: 1.25,
+  },
+  {
+    id: 'sigil_tap',
+    name: 'Sigil of Midas',
+    description: 'Empowers lawn taps with +50% extra coin yields.',
+    rarity: 'Huge',
+    icon: '👆',
+    buffType: 'tap_power',
+    buffMultiplier: 1.5,
+  },
+  {
+    id: 'sigil_arena',
+    name: 'Sigil of the War Dragon',
+    description: 'Empowers your 3 arena combatants with +45% attack power.',
+    rarity: 'Titanic',
+    icon: '⚔️',
+    buffType: 'arena_attack',
+    buffMultiplier: 1.45,
+  },
+  {
+    id: 'sigil_sakura',
+    name: 'Azuki Sakura Crest',
+    description: 'Ancestral crest granting +40% passive income and bonus gem chance.',
+    rarity: 'Azuki Exclusive',
+    icon: '🌸',
+    buffType: 'passive_income',
+    buffMultiplier: 1.4,
+  },
+  {
+    id: 'sigil_celestial',
+    name: 'Sigil of the Void Lord',
+    description: 'Harnesses abyssal energy for +60% arena attack and tap power.',
+    rarity: 'Immortal',
+    icon: '🌌',
+    buffType: 'arena_attack',
+    buffMultiplier: 1.6,
+  },
+  {
+    id: 'sigil_ultimate',
+    name: 'Crown of the Azuki Emperor',
+    description: 'The supreme relic of kings: +100% all passive income and taps!',
+    rarity: 'Ultimate Azuki',
+    icon: '👑',
+    buffType: 'passive_income',
+    buffMultiplier: 2.0,
+  },
+];
+
+export const SIGIL_MAP = new Map(SIGIL_REGISTRY.map((s) => [s.id, s]));

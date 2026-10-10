@@ -1,0 +1,5142 @@
+[
+  {
+    "code": "WELCOME2026",
+    "type": "starter_pack",
+    "label": "Welcome Pack",
+    "reward": {
+      "coins": 5000,
+      "gems": 50,
+      "description": "5,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "AZUKI",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Clan Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "species": "Azuki Spirit",
+      "coins": 50000,
+      "gems": 100,
+      "description": "Exclusive Azuki Spirit Pet + 50k Coins + 100 Gems"
+    }
+  },
+  {
+    "code": "FIRE",
+    "type": "gem_buff_pack",
+    "label": "Fire Boost Pack",
+    "reward": {
+      "gems": 250,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 30,
+      "description": "250 Gems + 30m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "PETLOVER",
+    "type": "rare_epic_pet",
+    "label": "Pet Lover Bundle",
+    "reward": {
+      "petRarity": "Epic",
+      "species": "Phoenix",
+      "coins": 25000,
+      "gems": 50,
+      "description": "Epic Phoenix Pet + 25k Coins + 50 Gems"
+    }
+  },
+  {
+    "code": "TITANIC",
+    "type": "titanic_pet",
+    "label": "Titanic Power",
+    "reward": {
+      "petRarity": "Titanic",
+      "species": "Cerberus",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Titanic Cerberus Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "LUCKY",
+    "type": "large_coin_pack",
+    "label": "Fortune Token",
+    "reward": {
+      "coins": 250000,
+      "gems": 150,
+      "buffType": "luck_2x",
+      "buffDurationMinutes": 20,
+      "description": "250k Coins + 150 Gems + 20m Luck Boost"
+    }
+  },
+  {
+    "code": "HATCH",
+    "type": "mid_coin_pack",
+    "label": "Speed Incubator",
+    "reward": {
+      "coins": 50000,
+      "gems": 75,
+      "instantHatchPotions": 3,
+      "description": "50k Coins + 75 Gems + 3 Instant Hatch Potions"
+    }
+  },
+  {
+    "code": "ULTIMATE",
+    "type": "ultimate_bundle",
+    "label": "The Ultimate Azuki Treasure",
+    "reward": {
+      "petRarity": "Ultimate Azuki",
+      "species": "Azuki Emperor",
+      "coins": 1000000000,
+      "gems": 5000,
+      "description": "Ultimate Azuki Emperor Pet + 1,000,000,000 Coins + 5,000 Gems!"
+    }
+  },
+  {
+    "code": "SECRET",
+    "type": "secret_pet",
+    "label": "Secret Dimension Key",
+    "reward": {
+      "petRarity": "Secret",
+      "species": "Void Monarch",
+      "coins": 2000000,
+      "gems": 500,
+      "description": "Secret Void Monarch Pet + 2M Coins + 500 Gems"
+    }
+  },
+  {
+    "code": "REBIRTH",
+    "type": "immortal_bundle",
+    "label": "Immortal Ascension Bundle",
+    "reward": {
+      "petRarity": "Immortal",
+      "species": "Golden Seraph",
+      "coins": 100000000,
+      "gems": 2500,
+      "description": "Immortal Golden Seraph Pet + 100M Coins + 2,500 Gems"
+    }
+  },
+  {
+    "code": "START10H774",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 10,
+      "description": "1,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START11V511",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 15,
+      "description": "1,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START139337",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 20,
+      "description": "2,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START14N154",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 25,
+      "description": "2,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START161773",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 10,
+      "description": "3,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START17F863",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 15,
+      "description": "1,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START18T137",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 20,
+      "description": "1,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START1A7615",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 25,
+      "description": "2,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START1BL681",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 10,
+      "description": "2,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START1CZ756",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 15,
+      "description": "3,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START1ED461",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 20,
+      "description": "1,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START1FR406",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 25,
+      "description": "1,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START1H5132",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 10,
+      "description": "2,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START1IJ869",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 15,
+      "description": "2,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START1JX530",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 20,
+      "description": "3,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START1LB523",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 25,
+      "description": "1,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START1MP110",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 10,
+      "description": "1,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START1O3534",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 15,
+      "description": "2,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START1PH567",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 20,
+      "description": "2,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START1QV866",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 25,
+      "description": "3,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START1S9908",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 10,
+      "description": "1,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START1TN549",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 15,
+      "description": "1,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START1V1619",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 20,
+      "description": "2,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START1WF817",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 25,
+      "description": "2,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START1XT401",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 10,
+      "description": "3,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START1Z7177",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 15,
+      "description": "1,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START20L659",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 20,
+      "description": "1,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START21Z610",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 25,
+      "description": "2,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START23D201",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 10,
+      "description": "2,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START24R608",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 15,
+      "description": "3,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START265947",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 20,
+      "description": "1,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START27J330",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 25,
+      "description": "1,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START28X318",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 10,
+      "description": "2,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START2AB426",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 15,
+      "description": "2,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START2BP642",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 20,
+      "description": "3,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START2D3271",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 25,
+      "description": "1,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START2EH137",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 10,
+      "description": "1,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START2FV620",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 15,
+      "description": "2,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START2H9873",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 20,
+      "description": "2,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START2IN656",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 25,
+      "description": "3,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START2K1212",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 10,
+      "description": "1,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START2LF734",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 15,
+      "description": "1,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START2MT594",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 20,
+      "description": "2,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START2O7909",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 25,
+      "description": "2,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START2PL952",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 10,
+      "description": "3,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START2QZ611",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 15,
+      "description": "1,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START2SD307",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 20,
+      "description": "1,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START2TR521",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 25,
+      "description": "2,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START2V5684",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 10,
+      "description": "2,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START2WJ542",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 15,
+      "description": "3,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START2XX959",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 20,
+      "description": "1,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START2ZB205",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 25,
+      "description": "1,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START30P745",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 10,
+      "description": "2,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START323537",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 15,
+      "description": "2,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START33H692",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 20,
+      "description": "3,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START34V940",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 25,
+      "description": "1,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START369719",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 10,
+      "description": "1,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START37N147",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 15,
+      "description": "2,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START391772",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 20,
+      "description": "2,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START3AF299",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 25,
+      "description": "3,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START3BT759",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 10,
+      "description": "1,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START3D7101",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 15,
+      "description": "1,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START3EL922",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 20,
+      "description": "2,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START3FZ178",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 25,
+      "description": "2,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START3HD613",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 10,
+      "description": "3,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START3IR985",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 15,
+      "description": "1,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START3K5816",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 20,
+      "description": "1,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START3LJ551",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 25,
+      "description": "2,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START3MX322",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 10,
+      "description": "2,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START3OB943",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 15,
+      "description": "3,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START3PP543",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 20,
+      "description": "1,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START3R3789",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 25,
+      "description": "1,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START3SH208",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 10,
+      "description": "2,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START3TV857",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 15,
+      "description": "2,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START3V9529",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 20,
+      "description": "3,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START3WN579",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 25,
+      "description": "1,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START3Y1258",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 10,
+      "description": "1,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START3ZF109",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 15,
+      "description": "2,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START40T300",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 20,
+      "description": "2,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START427979",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 25,
+      "description": "3,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START43L804",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 10,
+      "description": "1,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START44Z766",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 15,
+      "description": "1,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START46D643",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 20,
+      "description": "2,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START47R738",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 25,
+      "description": "2,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START495275",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 10,
+      "description": "3,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START4AJ177",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 15,
+      "description": "1,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START4BX639",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 20,
+      "description": "1,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START4DB401",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 25,
+      "description": "2,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START4EP438",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 10,
+      "description": "2,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START4G3537",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 15,
+      "description": "3,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START4HH343",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 20,
+      "description": "1,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START4IV900",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 25,
+      "description": "1,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START4K9584",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 10,
+      "description": "2,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START4LN184",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 15,
+      "description": "2,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START4N1999",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 20,
+      "description": "3,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START4OF802",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 25,
+      "description": "1,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START4PT109",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 10,
+      "description": "1,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START4R7119",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 15,
+      "description": "2,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START4SL317",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 20,
+      "description": "2,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START4TZ148",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 25,
+      "description": "3,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START4VD403",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 10,
+      "description": "1,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START4WR435",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 15,
+      "description": "1,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START4Y5481",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 20,
+      "description": "2,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START4ZJ825",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 25,
+      "description": "2,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START50X348",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 10,
+      "description": "3,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START52B321",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 15,
+      "description": "1,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START53P198",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 20,
+      "description": "1,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START553195",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 25,
+      "description": "2,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START56H484",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 10,
+      "description": "2,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START57V852",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 15,
+      "description": "3,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START599738",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 20,
+      "description": "1,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START5AN170",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 25,
+      "description": "1,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START5C1595",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 10,
+      "description": "2,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START5DF155",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 15,
+      "description": "2,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START5ET699",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 20,
+      "description": "3,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START5G7656",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 25,
+      "description": "1,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START5HL790",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 10,
+      "description": "1,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START5IZ313",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 15,
+      "description": "2,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START5KD211",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 20,
+      "description": "2,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START5LR152",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 25,
+      "description": "3,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START5N5191",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 10,
+      "description": "1,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START5OJ318",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 15,
+      "description": "1,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START5PX752",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 20,
+      "description": "2,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START5RB507",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 25,
+      "description": "2,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START5SP694",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 10,
+      "description": "3,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START5U3194",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 15,
+      "description": "1,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START5VH396",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 20,
+      "description": "1,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START5WV830",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 25,
+      "description": "2,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START5Y9568",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 10,
+      "description": "2,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START5ZN167",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 15,
+      "description": "3,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START611557",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 20,
+      "description": "1,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START62F668",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 25,
+      "description": "1,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START63T165",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 10,
+      "description": "2,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START657626",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 15,
+      "description": "2,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START66L270",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 20,
+      "description": "3,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START67Z598",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 25,
+      "description": "1,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START69D460",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 10,
+      "description": "1,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START6AR567",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 15,
+      "description": "2,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START6C5634",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 20,
+      "description": "2,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START6DJ927",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 25,
+      "description": "3,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START6EX492",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 10,
+      "description": "1,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START6GB136",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 15,
+      "description": "1,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START6HP844",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 20,
+      "description": "2,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START6J3452",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 25,
+      "description": "2,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START6KH877",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 10,
+      "description": "3,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START6LV972",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 15,
+      "description": "1,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START6N9749",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 20,
+      "description": "1,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START6ON645",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 25,
+      "description": "2,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START6Q1493",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 10,
+      "description": "2,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START6RF621",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 15,
+      "description": "3,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START6ST203",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 20,
+      "description": "1,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START6U7994",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 25,
+      "description": "1,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START6VL618",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 10,
+      "description": "2,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START6WZ277",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 15,
+      "description": "2,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START6YD350",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 20,
+      "description": "3,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START6ZR551",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 25,
+      "description": "1,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START715918",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 10,
+      "description": "1,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START72J490",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 15,
+      "description": "2,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START73X149",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 20,
+      "description": "2,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START75B525",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 25,
+      "description": "3,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START76P809",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 10,
+      "description": "1,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START783604",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 15,
+      "description": "1,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START79H516",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 20,
+      "description": "2,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START7AV501",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 25,
+      "description": "2,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START7C9277",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 10,
+      "description": "3,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START7DN312",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 15,
+      "description": "1,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START7F1505",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 20,
+      "description": "1,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START7GF200",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 25,
+      "description": "2,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START7HT822",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 10,
+      "description": "2,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START7J7677",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 15,
+      "description": "3,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START7KL691",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 20,
+      "description": "1,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START7LZ897",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 25,
+      "description": "1,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START7ND483",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 10,
+      "description": "2,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START7OR474",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 15,
+      "description": "2,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START7Q5622",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 20,
+      "description": "3,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START7RJ271",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 25,
+      "description": "1,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START7SX924",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 10,
+      "description": "1,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START7UB541",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 15,
+      "description": "2,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START7VP143",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 20,
+      "description": "2,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START7X3907",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 25,
+      "description": "3,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START7YH580",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 10,
+      "description": "1,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START7ZV518",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 15,
+      "description": "1,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START819136",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 20,
+      "description": "2,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START82N704",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 25,
+      "description": "2,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START841950",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 10,
+      "description": "3,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START85F575",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 15,
+      "description": "1,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START86T670",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 20,
+      "description": "1,500 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START887526",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 25,
+      "description": "2,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START89L229",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 10,
+      "description": "2,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START8AZ577",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 15,
+      "description": "3,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START8CD584",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 20,
+      "description": "1,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START8DR628",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 25,
+      "description": "1,500 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START8F5329",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 10,
+      "description": "2,000 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START8GJ749",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2500,
+      "gems": 15,
+      "description": "2,500 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "START8HX336",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 3000,
+      "gems": 20,
+      "description": "3,000 Coins & 20 Gems"
+    }
+  },
+  {
+    "code": "START8JB415",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1000,
+      "gems": 25,
+      "description": "1,000 Coins & 25 Gems"
+    }
+  },
+  {
+    "code": "START8KP804",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 1500,
+      "gems": 10,
+      "description": "1,500 Coins & 10 Gems"
+    }
+  },
+  {
+    "code": "START8M3906",
+    "type": "starter_pack",
+    "label": "Starter Supplies",
+    "reward": {
+      "coins": 2000,
+      "gems": 15,
+      "description": "2,000 Coins & 15 Gems"
+    }
+  },
+  {
+    "code": "COIN2ZZ238",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 30,
+      "description": "15,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN31D157",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 40,
+      "description": "20,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN32R331",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 50,
+      "description": "25,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN345275",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 60,
+      "description": "30,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN35J423",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 70,
+      "description": "35,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN36X654",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 30,
+      "description": "40,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN38B133",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 40,
+      "description": "45,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN39P368",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 50,
+      "description": "15,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN3B3369",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 60,
+      "description": "20,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN3CH247",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 70,
+      "description": "25,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN3DV639",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 30,
+      "description": "30,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN3F9947",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 40,
+      "description": "35,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN3GN591",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 50,
+      "description": "40,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN3I1632",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 60,
+      "description": "45,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN3JF552",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 70,
+      "description": "15,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN3KT444",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 30,
+      "description": "20,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN3M7990",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 40,
+      "description": "25,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN3NL766",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 50,
+      "description": "30,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN3OZ949",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 60,
+      "description": "35,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN3QD375",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 70,
+      "description": "40,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN3RR460",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 30,
+      "description": "45,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN3T5398",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 40,
+      "description": "15,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN3UJ653",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 50,
+      "description": "20,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN3VX586",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 60,
+      "description": "25,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN3XB954",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 70,
+      "description": "30,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN3YP837",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 30,
+      "description": "35,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN403404",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 40,
+      "description": "40,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN41H694",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 50,
+      "description": "45,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN42V530",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 60,
+      "description": "15,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN449285",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 70,
+      "description": "20,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN45N551",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 30,
+      "description": "25,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN471635",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 40,
+      "description": "30,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN48F900",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 50,
+      "description": "35,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN49T348",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 60,
+      "description": "40,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN4B7750",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 70,
+      "description": "45,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN4CL134",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 30,
+      "description": "15,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN4DZ337",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 40,
+      "description": "20,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN4FD217",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 50,
+      "description": "25,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN4GR719",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 60,
+      "description": "30,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN4I5954",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 70,
+      "description": "35,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN4JJ276",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 30,
+      "description": "40,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN4KX219",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 40,
+      "description": "45,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN4MB789",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 50,
+      "description": "15,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN4NP713",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 60,
+      "description": "20,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN4P3420",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 70,
+      "description": "25,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN4QH457",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 30,
+      "description": "30,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN4RV207",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 40,
+      "description": "35,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN4T9146",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 50,
+      "description": "40,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN4UN756",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 60,
+      "description": "45,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN4W1515",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 70,
+      "description": "15,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN4XF417",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 30,
+      "description": "20,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN4YT109",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 40,
+      "description": "25,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN507764",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 50,
+      "description": "30,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN51L757",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 60,
+      "description": "35,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN52Z705",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 70,
+      "description": "40,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN54D118",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 30,
+      "description": "45,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN55R478",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 40,
+      "description": "15,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN575988",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 50,
+      "description": "20,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN58J583",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 60,
+      "description": "25,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN59X831",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 70,
+      "description": "30,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN5BB565",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 30,
+      "description": "35,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN5CP976",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 40,
+      "description": "40,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN5E3154",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 50,
+      "description": "45,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN5FH892",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 60,
+      "description": "15,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN5GV519",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 70,
+      "description": "20,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN5I9839",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 30,
+      "description": "25,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN5JN728",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 40,
+      "description": "30,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN5L1126",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 50,
+      "description": "35,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN5MF161",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 60,
+      "description": "40,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN5NT623",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 70,
+      "description": "45,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN5P7497",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 30,
+      "description": "15,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN5QL483",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 40,
+      "description": "20,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN5RZ325",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 50,
+      "description": "25,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN5TD134",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 60,
+      "description": "30,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN5UR668",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 70,
+      "description": "35,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN5W5416",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 30,
+      "description": "40,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN5XJ313",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 40,
+      "description": "45,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN5YX707",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 50,
+      "description": "15,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN60B481",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 60,
+      "description": "20,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN61P438",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 70,
+      "description": "25,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN633985",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 30,
+      "description": "30,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN64H946",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 40,
+      "description": "35,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN65V181",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 50,
+      "description": "40,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN679228",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 60,
+      "description": "45,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN68N718",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 70,
+      "description": "15,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN6A1419",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 30,
+      "description": "20,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN6BF494",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 40,
+      "description": "25,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN6CT797",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 50,
+      "description": "30,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN6E7408",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 60,
+      "description": "35,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN6FL472",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 70,
+      "description": "40,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN6GZ280",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 30,
+      "description": "45,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN6ID220",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 40,
+      "description": "15,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN6JR976",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 50,
+      "description": "20,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN6L5188",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 60,
+      "description": "25,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN6MJ620",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 70,
+      "description": "30,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN6NX465",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 30,
+      "description": "35,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN6PB930",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 40,
+      "description": "40,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN6QP627",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 50,
+      "description": "45,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN6S3750",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 60,
+      "description": "15,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN6TH525",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 70,
+      "description": "20,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN6UV125",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 30,
+      "description": "25,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN6W9800",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 40,
+      "description": "30,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN6XN820",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 50,
+      "description": "35,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN6Z1145",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 60,
+      "description": "40,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN70F579",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 70,
+      "description": "45,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN71T894",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 30,
+      "description": "15,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN737618",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 40,
+      "description": "20,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN74L877",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 50,
+      "description": "25,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN75Z718",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 60,
+      "description": "30,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN77D710",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 70,
+      "description": "35,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN78R444",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 30,
+      "description": "40,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN7A5700",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 40,
+      "description": "45,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN7BJ342",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 15000,
+      "gems": 50,
+      "description": "15,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN7CX819",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 20000,
+      "gems": 60,
+      "description": "20,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "COIN7EB233",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 25000,
+      "gems": 70,
+      "description": "25,000 Coins & 70 Gems"
+    }
+  },
+  {
+    "code": "COIN7FP906",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 30000,
+      "gems": 30,
+      "description": "30,000 Coins & 30 Gems"
+    }
+  },
+  {
+    "code": "COIN7H3534",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 35000,
+      "gems": 40,
+      "description": "35,000 Coins & 40 Gems"
+    }
+  },
+  {
+    "code": "COIN7IH992",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 40000,
+      "gems": 50,
+      "description": "40,000 Coins & 50 Gems"
+    }
+  },
+  {
+    "code": "COIN7JV412",
+    "type": "mid_coin_pack",
+    "label": "Adventurer Stash",
+    "reward": {
+      "coins": 45000,
+      "gems": 60,
+      "description": "45,000 Coins & 60 Gems"
+    }
+  },
+  {
+    "code": "VAULT46Y101",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 100000,
+      "gems": 100,
+      "description": "100,000 Coins & 100 Gems"
+    }
+  },
+  {
+    "code": "VAULT48C424",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 120000,
+      "gems": 125,
+      "description": "120,000 Coins & 125 Gems"
+    }
+  },
+  {
+    "code": "VAULT49Q391",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 140000,
+      "gems": 150,
+      "description": "140,000 Coins & 150 Gems"
+    }
+  },
+  {
+    "code": "VAULT4B4940",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 160000,
+      "gems": 175,
+      "description": "160,000 Coins & 175 Gems"
+    }
+  },
+  {
+    "code": "VAULT4CI721",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 180000,
+      "gems": 200,
+      "description": "180,000 Coins & 200 Gems"
+    }
+  },
+  {
+    "code": "VAULT4DW644",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 200000,
+      "gems": 225,
+      "description": "200,000 Coins & 225 Gems"
+    }
+  },
+  {
+    "code": "VAULT4FA127",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 220000,
+      "gems": 100,
+      "description": "220,000 Coins & 100 Gems"
+    }
+  },
+  {
+    "code": "VAULT4GO140",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 240000,
+      "gems": 125,
+      "description": "240,000 Coins & 125 Gems"
+    }
+  },
+  {
+    "code": "VAULT4I2604",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 260000,
+      "gems": 150,
+      "description": "260,000 Coins & 150 Gems"
+    }
+  },
+  {
+    "code": "VAULT4JG516",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 280000,
+      "gems": 175,
+      "description": "280,000 Coins & 175 Gems"
+    }
+  },
+  {
+    "code": "VAULT4KU419",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 100000,
+      "gems": 200,
+      "description": "100,000 Coins & 200 Gems"
+    }
+  },
+  {
+    "code": "VAULT4M8381",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 120000,
+      "gems": 225,
+      "description": "120,000 Coins & 225 Gems"
+    }
+  },
+  {
+    "code": "VAULT4NM383",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 140000,
+      "gems": 100,
+      "description": "140,000 Coins & 100 Gems"
+    }
+  },
+  {
+    "code": "VAULT4P0142",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 160000,
+      "gems": 125,
+      "description": "160,000 Coins & 125 Gems"
+    }
+  },
+  {
+    "code": "VAULT4QE240",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 180000,
+      "gems": 150,
+      "description": "180,000 Coins & 150 Gems"
+    }
+  },
+  {
+    "code": "VAULT4RS962",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 200000,
+      "gems": 175,
+      "description": "200,000 Coins & 175 Gems"
+    }
+  },
+  {
+    "code": "VAULT4T6503",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 220000,
+      "gems": 200,
+      "description": "220,000 Coins & 200 Gems"
+    }
+  },
+  {
+    "code": "VAULT4UK409",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 240000,
+      "gems": 225,
+      "description": "240,000 Coins & 225 Gems"
+    }
+  },
+  {
+    "code": "VAULT4VY404",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 260000,
+      "gems": 100,
+      "description": "260,000 Coins & 100 Gems"
+    }
+  },
+  {
+    "code": "VAULT4XC892",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 280000,
+      "gems": 125,
+      "description": "280,000 Coins & 125 Gems"
+    }
+  },
+  {
+    "code": "VAULT4YQ990",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 100000,
+      "gems": 150,
+      "description": "100,000 Coins & 150 Gems"
+    }
+  },
+  {
+    "code": "VAULT504590",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 120000,
+      "gems": 175,
+      "description": "120,000 Coins & 175 Gems"
+    }
+  },
+  {
+    "code": "VAULT51I507",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 140000,
+      "gems": 200,
+      "description": "140,000 Coins & 200 Gems"
+    }
+  },
+  {
+    "code": "VAULT52W805",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 160000,
+      "gems": 225,
+      "description": "160,000 Coins & 225 Gems"
+    }
+  },
+  {
+    "code": "VAULT54A166",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 180000,
+      "gems": 100,
+      "description": "180,000 Coins & 100 Gems"
+    }
+  },
+  {
+    "code": "VAULT55O482",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 200000,
+      "gems": 125,
+      "description": "200,000 Coins & 125 Gems"
+    }
+  },
+  {
+    "code": "VAULT572119",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 220000,
+      "gems": 150,
+      "description": "220,000 Coins & 150 Gems"
+    }
+  },
+  {
+    "code": "VAULT58G169",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 240000,
+      "gems": 175,
+      "description": "240,000 Coins & 175 Gems"
+    }
+  },
+  {
+    "code": "VAULT59U684",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 260000,
+      "gems": 200,
+      "description": "260,000 Coins & 200 Gems"
+    }
+  },
+  {
+    "code": "VAULT5B8154",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 280000,
+      "gems": 225,
+      "description": "280,000 Coins & 225 Gems"
+    }
+  },
+  {
+    "code": "VAULT5CM378",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 100000,
+      "gems": 100,
+      "description": "100,000 Coins & 100 Gems"
+    }
+  },
+  {
+    "code": "VAULT5E0257",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 120000,
+      "gems": 125,
+      "description": "120,000 Coins & 125 Gems"
+    }
+  },
+  {
+    "code": "VAULT5FE896",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 140000,
+      "gems": 150,
+      "description": "140,000 Coins & 150 Gems"
+    }
+  },
+  {
+    "code": "VAULT5GS849",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 160000,
+      "gems": 175,
+      "description": "160,000 Coins & 175 Gems"
+    }
+  },
+  {
+    "code": "VAULT5I6176",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 180000,
+      "gems": 200,
+      "description": "180,000 Coins & 200 Gems"
+    }
+  },
+  {
+    "code": "VAULT5JK617",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 200000,
+      "gems": 225,
+      "description": "200,000 Coins & 225 Gems"
+    }
+  },
+  {
+    "code": "VAULT5KY682",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 220000,
+      "gems": 100,
+      "description": "220,000 Coins & 100 Gems"
+    }
+  },
+  {
+    "code": "VAULT5MC551",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 240000,
+      "gems": 125,
+      "description": "240,000 Coins & 125 Gems"
+    }
+  },
+  {
+    "code": "VAULT5NQ894",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 260000,
+      "gems": 150,
+      "description": "260,000 Coins & 150 Gems"
+    }
+  },
+  {
+    "code": "VAULT5P4493",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 280000,
+      "gems": 175,
+      "description": "280,000 Coins & 175 Gems"
+    }
+  },
+  {
+    "code": "VAULT5QI567",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 100000,
+      "gems": 200,
+      "description": "100,000 Coins & 200 Gems"
+    }
+  },
+  {
+    "code": "VAULT5RW528",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 120000,
+      "gems": 225,
+      "description": "120,000 Coins & 225 Gems"
+    }
+  },
+  {
+    "code": "VAULT5TA296",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 140000,
+      "gems": 100,
+      "description": "140,000 Coins & 100 Gems"
+    }
+  },
+  {
+    "code": "VAULT5UO533",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 160000,
+      "gems": 125,
+      "description": "160,000 Coins & 125 Gems"
+    }
+  },
+  {
+    "code": "VAULT5W2147",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 180000,
+      "gems": 150,
+      "description": "180,000 Coins & 150 Gems"
+    }
+  },
+  {
+    "code": "VAULT5XG889",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 200000,
+      "gems": 175,
+      "description": "200,000 Coins & 175 Gems"
+    }
+  },
+  {
+    "code": "VAULT5YU359",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 220000,
+      "gems": 200,
+      "description": "220,000 Coins & 200 Gems"
+    }
+  },
+  {
+    "code": "VAULT608415",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 240000,
+      "gems": 225,
+      "description": "240,000 Coins & 225 Gems"
+    }
+  },
+  {
+    "code": "VAULT61M795",
+    "type": "large_coin_pack",
+    "label": "Grand Vault",
+    "reward": {
+      "coins": 260000,
+      "gems": 100,
+      "description": "260,000 Coins & 100 Gems"
+    }
+  },
+  {
+    "code": "BOOST4ON275",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 150,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "150 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST4Q1929",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 175,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "175 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST4RF921",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 200,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "200 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST4ST332",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 225,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "225 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST4U7208",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 250,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "250 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST4VL131",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 150,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "150 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST4WZ956",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 175,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "175 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST4YD602",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 200,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "200 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST4ZR613",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 225,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "225 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST515922",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 250,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "250 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST52J706",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 150,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "150 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST53X575",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 175,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "175 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST55B818",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 200,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "200 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST56P391",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 225,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "225 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST583591",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 250,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "250 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST59H264",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 150,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "150 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5AV287",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 175,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "175 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5C9405",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 200,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "200 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5DN410",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 225,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "225 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5F1929",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 250,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "250 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5GF924",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 150,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "150 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5HT286",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 175,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "175 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5J7742",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 200,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "200 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5KL425",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 225,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "225 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5LZ483",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 250,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "250 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5ND571",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 150,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "150 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5OR429",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 175,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "175 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5Q5601",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 200,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "200 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5RJ662",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 225,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "225 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5SX653",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 250,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "250 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5UB201",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 150,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "150 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5VP953",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 175,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "175 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5X3736",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 200,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "200 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5YH875",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 225,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "225 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST5ZV923",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 250,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "250 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST619657",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 150,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "150 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST62N685",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 175,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "175 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST641327",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 200,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "200 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BOOST65F502",
+    "type": "gem_buff_pack",
+    "label": "Overdrive Buff Pack",
+    "reward": {
+      "gems": 225,
+      "buffType": "coin_2x",
+      "buffDurationMinutes": 15,
+      "description": "225 Gems + 15m 2x Coins Boost"
+    }
+  },
+  {
+    "code": "BEAST52Q944",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST544293",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST55I959",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST56W291",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST58A129",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST59O593",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5B2799",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5CG183",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5DU401",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5F8526",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5GM734",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5I0231",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5JE418",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5KS933",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5M6221",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5NK920",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5OY136",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5QC674",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5RQ817",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5T4713",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5UI541",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5VW552",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5XA745",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST5YO350",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST602542",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST61G817",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST62U161",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST648594",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Epic",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Epic Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "BEAST65M604",
+    "type": "rare_epic_pet",
+    "label": "Rare Hatchling Ticket",
+    "reward": {
+      "petRarity": "Rare",
+      "coins": 20000,
+      "gems": 40,
+      "description": "Random Rare Pet + 20k Coins"
+    }
+  },
+  {
+    "code": "HUGE5D7132",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5EL830",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5FZ331",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5HD586",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5IR644",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5K5982",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5LJ853",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5MX802",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5OB388",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5PP997",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5R3338",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5SH179",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5TV793",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5V9168",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5WN202",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5Y1257",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE5ZF119",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE60T778",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE627579",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE63L823",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE64Z585",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE66D268",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE67R789",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE695279",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "HUGE6AJ116",
+    "type": "huge_pet",
+    "label": "Colossal Egg Ticket",
+    "reward": {
+      "petRarity": "Huge",
+      "coins": 150000,
+      "gems": 150,
+      "description": "Random Huge Pet + 150k Coins + 150 Gems"
+    }
+  },
+  {
+    "code": "CLAN5M8599",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN5NM628",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN5P0277",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN5QE238",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN5RS753",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN5T6245",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN5UK804",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN5VY522",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN5XC380",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN5YQ390",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN604420",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN61I849",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN62W975",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN64A207",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN65O968",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN672657",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN68G787",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN69U699",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "CLAN6B8757",
+    "type": "azuki_exclusive_pet",
+    "label": "Azuki Ancestor Gift",
+    "reward": {
+      "petRarity": "Azuki Exclusive",
+      "coins": 500000,
+      "gems": 300,
+      "description": "Random Azuki Exclusive Pet + 500k Coins + 300 Gems"
+    }
+  },
+  {
+    "code": "TITAN5T3934",
+    "type": "titanic_pet",
+    "label": "Titanic Relic Ticket",
+    "reward": {
+      "petRarity": "Titanic",
+      "coins": 2000000,
+      "gems": 600,
+      "description": "Random Titanic Pet + 2M Coins + 600 Gems"
+    }
+  },
+  {
+    "code": "TITAN5UH435",
+    "type": "titanic_pet",
+    "label": "Titanic Relic Ticket",
+    "reward": {
+      "petRarity": "Titanic",
+      "coins": 2000000,
+      "gems": 600,
+      "description": "Random Titanic Pet + 2M Coins + 600 Gems"
+    }
+  },
+  {
+    "code": "TITAN5VV863",
+    "type": "titanic_pet",
+    "label": "Titanic Relic Ticket",
+    "reward": {
+      "petRarity": "Titanic",
+      "coins": 2000000,
+      "gems": 600,
+      "description": "Random Titanic Pet + 2M Coins + 600 Gems"
+    }
+  },
+  {
+    "code": "TITAN5X9236",
+    "type": "titanic_pet",
+    "label": "Titanic Relic Ticket",
+    "reward": {
+      "petRarity": "Titanic",
+      "coins": 2000000,
+      "gems": 600,
+      "description": "Random Titanic Pet + 2M Coins + 600 Gems"
+    }
+  },
+  {
+    "code": "TITAN5YN562",
+    "type": "titanic_pet",
+    "label": "Titanic Relic Ticket",
+    "reward": {
+      "petRarity": "Titanic",
+      "coins": 2000000,
+      "gems": 600,
+      "description": "Random Titanic Pet + 2M Coins + 600 Gems"
+    }
+  },
+  {
+    "code": "TITAN601461",
+    "type": "titanic_pet",
+    "label": "Titanic Relic Ticket",
+    "reward": {
+      "petRarity": "Titanic",
+      "coins": 2000000,
+      "gems": 600,
+      "description": "Random Titanic Pet + 2M Coins + 600 Gems"
+    }
+  },
+  {
+    "code": "TITAN61F327",
+    "type": "titanic_pet",
+    "label": "Titanic Relic Ticket",
+    "reward": {
+      "petRarity": "Titanic",
+      "coins": 2000000,
+      "gems": 600,
+      "description": "Random Titanic Pet + 2M Coins + 600 Gems"
+    }
+  },
+  {
+    "code": "TITAN62T588",
+    "type": "titanic_pet",
+    "label": "Titanic Relic Ticket",
+    "reward": {
+      "petRarity": "Titanic",
+      "coins": 2000000,
+      "gems": 600,
+      "description": "Random Titanic Pet + 2M Coins + 600 Gems"
+    }
+  },
+  {
+    "code": "TITAN647693",
+    "type": "titanic_pet",
+    "label": "Titanic Relic Ticket",
+    "reward": {
+      "petRarity": "Titanic",
+      "coins": 2000000,
+      "gems": 600,
+      "description": "Random Titanic Pet + 2M Coins + 600 Gems"
+    }
+  },
+  {
+    "code": "MYSTIC5WC259",
+    "type": "secret_pet",
+    "label": "Cosmic Secret Rift",
+    "reward": {
+      "petRarity": "Secret",
+      "coins": 10000000,
+      "gems": 1200,
+      "description": "Random Secret Pet + 10M Coins + 1,200 Gems"
+    }
+  },
+  {
+    "code": "MYSTIC5XQ581",
+    "type": "secret_pet",
+    "label": "Cosmic Secret Rift",
+    "reward": {
+      "petRarity": "Secret",
+      "coins": 10000000,
+      "gems": 1200,
+      "description": "Random Secret Pet + 10M Coins + 1,200 Gems"
+    }
+  },
+  {
+    "code": "MYSTIC5Z4565",
+    "type": "secret_pet",
+    "label": "Cosmic Secret Rift",
+    "reward": {
+      "petRarity": "Secret",
+      "coins": 10000000,
+      "gems": 1200,
+      "description": "Random Secret Pet + 10M Coins + 1,200 Gems"
+    }
+  }
+]
