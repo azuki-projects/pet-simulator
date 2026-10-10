@@ -149,7 +149,7 @@ export const BattleArenaView: React.FC = () => {
   };
 
   return (
-    <div className="w-full max-w-5xl mx-auto px-3 py-4 pb-24 text-slate-100">
+    <div className="w-full max-w-5xl mx-auto px-3 py-4 pb-36 sm:pb-32 text-slate-100">
       {/* Title */}
       <div className="flex items-center justify-between gap-3 mb-6">
         <div>

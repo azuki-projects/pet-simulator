@@ -89,18 +89,6 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
       return;
     }
 
-    // If selecting, check if matches first selected pet's species & rarity
-    if (fusionSelectedIds.length > 0) {
-      const first = state.inventory.find((p) => p.id === fusionSelectedIds[0]);
-      if (first && (first.speciesId !== pet.speciesId || first.rarity !== pet.rarity)) {
-        setFusionMessage({
-          success: false,
-          text: `You must select matching ${first.rarity} ${first.name} pets!`,
-        });
-        return;
-      }
-    }
-
     if (fusionSelectedIds.length >= 5) {
       setFusionMessage({ success: false, text: 'Maximum 5 pets can be selected for fusion.' });
       return;
@@ -119,7 +107,7 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
   };
 
   return (
-    <div className="w-full max-w-5xl mx-auto px-3 py-4 pb-24 text-slate-100">
+    <div className="w-full max-w-5xl mx-auto px-3 py-4 pb-36 sm:pb-32 text-slate-100">
       {/* Top Header & Tabs */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-6">
         <div>
@@ -302,14 +290,14 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
               <span>Pet Fusion Chamber</span>
             </h3>
             <p className="text-xs sm:text-sm text-slate-400">
-              Combine identical pets to ascend to the next rarity tier!
+              Combine any 3 or 5 pets (different rarities and species welcome!) to ascend to the next rarity tier!
             </p>
 
             <div className="mt-4 grid grid-cols-2 gap-3 text-xs">
               <div className="p-3 rounded-2xl bg-slate-950 border border-slate-800">
-                <span className="font-bold text-amber-400 block mb-1">3 Pets Recipe</span>
+                <span className="font-bold text-amber-400 block mb-1">3 Pets Fusion</span>
                 <span className="text-slate-300">
-                  3 identical species = 1 of the NEXT rarity up!
+                  Select any 3 pets = Upgrades to next tier above the highest pet!
                 </span>
               </div>
               <div className="p-3 rounded-2xl bg-amber-950/40 border border-amber-500/40">
@@ -317,7 +305,7 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
                   ✨ 5 Pets Super Fusion
                 </span>
                 <span className="text-amber-200">
-                  5 identical = Next rarity + SHINY boost (x2.5 CPS)!
+                  Select any 5 pets = Next tier + SHINY boost (x2.5 CPS)!
                 </span>
               </div>
             </div>
@@ -357,6 +345,12 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
                         <span className="text-[9px] font-bold text-white truncate max-w-full">
                           {pet.name}
                         </span>
+                        <span
+                          className="text-[8px] font-extrabold uppercase truncate"
+                          style={{ color: RARITIES[pet.rarity]?.color }}
+                        >
+                          {pet.rarity}
+                        </span>
                       </>
                     ) : (
                       <span className="text-slate-600 text-xs font-bold">Slot {idx + 1}</span>
@@ -366,8 +360,29 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
               })}
             </div>
 
-            {/* Fusion Action Button */}
+            {/* Fusion Action Button & Live Preview */}
             <div className="mt-4">
+              {(fusionSelectedIds.length === 3 || fusionSelectedIds.length === 5) && (
+                <div className="mb-3 p-2.5 rounded-xl bg-amber-500/15 border border-amber-500/40 text-xs font-bold text-amber-200 flex items-center justify-between">
+                  <span>Guaranteed Outcome:</span>
+                  <span className="font-black text-amber-300">
+                    {fusionSelectedIds.length === 5 ? '✨ SHINY ' : ''}
+                    {
+                      RARITY_ORDER[
+                        Math.min(
+                          RARITY_ORDER.length - 1,
+                          Math.max(
+                            ...state.inventory
+                              .filter((p) => fusionSelectedIds.includes(p.id))
+                              .map((p) => RARITY_ORDER.indexOf(p.rarity))
+                          ) + 1
+                        )
+                      ]
+                    } Tier!
+                  </span>
+                </div>
+              )}
+
               <button
                 onClick={handleExecuteFusion}
                 disabled={fusionSelectedIds.length !== 3 && fusionSelectedIds.length !== 5}
@@ -383,7 +398,7 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
                     ? '✨ FUSE 5 PETS (SHINY UPGRADE)'
                     : fusionSelectedIds.length === 3
                     ? 'FUSE 3 PETS (NEXT RARITY)'
-                    : 'Select 3 or 5 Unlocked Pets'}
+                    : 'Select Any 3 or 5 Pets (Different Rarities Allowed)'}
                 </span>
               </button>
 

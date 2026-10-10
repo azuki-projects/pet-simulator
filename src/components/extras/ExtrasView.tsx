@@ -52,7 +52,7 @@ export const ExtrasView: React.FC = () => {
   };
 
   return (
-    <div className="w-full max-w-5xl mx-auto px-3 py-4 pb-24 text-slate-100">
+    <div className="w-full max-w-5xl mx-auto px-3 py-4 pb-36 sm:pb-32 text-slate-100">
       {/* Title & Sub-tabs */}
       <div className="mb-6">
         <h2 className="text-2xl sm:text-3xl font-black text-white flex items-center gap-2 mb-1">
@@ -123,13 +123,13 @@ export const ExtrasView: React.FC = () => {
             <div className="w-16 h-16 rounded-2xl bg-rose-500/10 border border-rose-500/30 flex items-center justify-center text-3xl mx-auto mb-3">
               🎟️
             </div>
-            <h3 className="text-xl font-black text-white">500 Unique Redemption Codes</h3>
+            <h3 className="text-xl font-black text-white">Secret Redemption Codes</h3>
             <p className="text-xs text-slate-400 mt-1">
               Codes are case-insensitive and can be claimed once per save file.
             </p>
           </div>
 
-          <form onSubmit={handleRedeem} className="space-y-3 mb-6">
+          <form onSubmit={handleRedeem} className="space-y-3">
             <div className="flex gap-2">
               <input
                 type="text"
@@ -159,14 +159,6 @@ export const ExtrasView: React.FC = () => {
               </div>
             )}
           </form>
-
-          {/* Code Status Info */}
-          <div className="bg-slate-950/80 rounded-2xl p-4 border border-slate-800 text-xs flex items-center justify-between">
-            <span className="text-slate-400">Total Codes Claimed:</span>
-            <span className="font-extrabold text-amber-300 tabular-nums">
-              {state.claimedCodes.length} / 500
-            </span>
-          </div>
         </div>
       )}
 

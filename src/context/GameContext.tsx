@@ -680,10 +680,10 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }));
   };
 
-  // Pet Fusion (3 identical = next rarity; 5 identical = next rarity + shiny boost)
+  // Pet Fusion (allows any 3 or 5 pets of same or different rarities!)
   const fusePets = (petIds: string[]) => {
     if (petIds.length !== 3 && petIds.length !== 5) {
-      return { success: false, message: 'Select exactly 3 or 5 identical pets!' };
+      return { success: false, message: 'Select exactly 3 or 5 pets to fuse!' };
     }
 
     const selectedPets = state.inventory.filter((p) => petIds.includes(p.id));
@@ -695,23 +695,20 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
       return { success: false, message: 'Cannot fuse locked or equipped pets!' };
     }
 
-    const first = selectedPets[0];
-    const allMatch = selectedPets.every(
-      (p) => p.speciesId === first.speciesId && p.rarity === first.rarity
+    // Determine target rarity based on the highest rarity selected
+    const rarityIndices = selectedPets.map((p) => RARITY_ORDER.indexOf(p.rarity));
+    const maxRarityIdx = Math.max(...rarityIndices);
+    const targetRarityIdx = Math.min(RARITY_ORDER.length - 1, maxRarityIdx + 1);
+    const nextRarity = RARITY_ORDER[targetRarityIdx];
+
+    // Pick species from the highest-rarity pets in the fusion batch
+    const highestTierPets = selectedPets.filter(
+      (p) => RARITY_ORDER.indexOf(p.rarity) === maxRarityIdx
     );
+    const chosenSpeciesId = highestTierPets[Math.floor(Math.random() * highestTierPets.length)].speciesId;
 
-    if (!allMatch) {
-      return { success: false, message: 'All pets must be the exact same species and rarity!' };
-    }
-
-    const currentRarityIdx = RARITY_ORDER.indexOf(first.rarity);
-    if (currentRarityIdx >= RARITY_ORDER.length - 1) {
-      return { success: false, message: 'Pet is already at the maximum rarity tier!' };
-    }
-
-    const nextRarity = RARITY_ORDER[currentRarityIdx + 1];
     const isFiveFuse = petIds.length === 5;
-    const newPet = createPet(nextRarity, first.speciesId, isFiveFuse);
+    const newPet = createPet(nextRarity, chosenSpeciesId, isFiveFuse);
 
     soundManager.playLevelUp();
 
@@ -743,7 +740,7 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
     return {
       success: true,
       newPet,
-      message: `Successfully fused into ${isFiveFuse ? '✨ SHINY ' : ''}${newPet.rarity} ${newPet.name}!`,
+      message: `Fused into ${isFiveFuse ? '✨ SHINY ' : ''}${newPet.rarity} ${newPet.name}!`,
     };
   };
 

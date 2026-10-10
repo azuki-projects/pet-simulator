@@ -14,6 +14,7 @@ import { WelcomeModal } from './components/welcome/WelcomeModal';
 import { HatchRevealModal } from './components/eggs/HatchRevealModal';
 import { OfflineModal } from './components/offline/OfflineModal';
 import { TrainingModal } from './components/training/TrainingModal';
+import { GlobalChat } from './components/chat/GlobalChat';
 
 const GameContainer: React.FC = () => {
   const [currentTab, setCurrentTab] = useState<TabType>('field');
@@ -28,15 +29,18 @@ const GameContainer: React.FC = () => {
   } = useGame();
 
   return (
-    <div className="min-h-screen w-full bg-slate-950 text-slate-100 flex flex-col font-sans select-none overflow-x-hidden">
+    <div className="h-[100dvh] max-h-[100dvh] w-full bg-slate-950 text-slate-100 flex flex-col font-sans overflow-hidden">
       {/* Top HUD */}
       <Header
         onOpenWelcome={() => setIsWelcomeOpen(true)}
         onOpenGuides={() => setCurrentTab('guides')}
       />
 
-      {/* Main Content Area */}
-      <main className="flex-1 w-full overflow-y-auto">
+      {/* Main Content Area - Fully touch scrollable on mobile */}
+      <main
+        className="flex-1 w-full overflow-y-auto overflow-x-hidden touch-pan-y"
+        style={{ WebkitOverflowScrolling: 'touch' }}
+      >
         {currentTab === 'field' && <GameField />}
         {currentTab === 'eggs' && <EggShopAndHatchery />}
         {currentTab === 'inventory' && (
@@ -48,6 +52,9 @@ const GameContainer: React.FC = () => {
         {currentTab === 'extras' && <ExtrasView />}
         {currentTab === 'guides' && <GuidesView />}
       </main>
+
+      {/* Global Realm Live Chat (streams every 3 seconds) */}
+      <GlobalChat />
 
       {/* Bottom Dock Navigation */}
       <Navigation currentTab={currentTab} onSelectTab={setCurrentTab} />

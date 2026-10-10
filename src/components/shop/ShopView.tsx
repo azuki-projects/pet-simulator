@@ -95,7 +95,7 @@ export const ShopView: React.FC = () => {
   ];
 
   return (
-    <div className="w-full max-w-5xl mx-auto px-3 py-4 pb-24 text-slate-100">
+    <div className="w-full max-w-5xl mx-auto px-3 py-4 pb-36 sm:pb-32 text-slate-100">
       {/* Title */}
       <div className="mb-6">
         <h2 className="text-2xl sm:text-3xl font-black text-white flex items-center gap-2">
