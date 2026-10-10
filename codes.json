@@ -3,6 +3,7 @@
     "code": "WELCOME2026",
     "type": "starter_pack",
     "label": "Welcome Pack",
+    "message": "Welcome to Azuki Pet Simulator! You unlocked 5,000 Coins & 50 Gems to begin your adventure!",
     "reward": {
       "coins": 5000,
       "gems": 50,
@@ -10,14 +11,15 @@
     }
   },
   {
-    "code": "AZUKIPREM",
+    "code": "AZUKI",
     "type": "azuki_exclusive_pet",
     "label": "Azuki Clan Gift",
+    "message": "Honor to the Azuki Clan! You unlocked the Exclusive Azuki Spirit Pet, 50,000 Coins, and 100 Gems!",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "species": "Azuki Spirit",
-      "coins": 1000000000000,
-      "gems": 100000000,
+      "coins": 50000,
+      "gems": 100,
       "description": "Exclusive Azuki Spirit Pet + 50k Coins + 100 Gems"
     }
   },
@@ -25,6 +27,7 @@
     "code": "FIRE",
     "type": "gem_buff_pack",
     "label": "Fire Boost Pack",
+    "message": "Solar Fire ignited! You received 250 Gems and a 30-minute 2x Coins Boost!",
     "reward": {
       "gems": 250,
       "buffType": "coin_2x",
@@ -36,6 +39,7 @@
     "code": "PETLOVER",
     "type": "rare_epic_pet",
     "label": "Pet Lover Bundle",
+    "message": "A magnificent Epic Phoenix has joined your squad with 25,000 Coins and 50 Gems!",
     "reward": {
       "petRarity": "Epic",
       "species": "Phoenix",
@@ -48,6 +52,7 @@
     "code": "TITANIC",
     "type": "titanic_pet",
     "label": "Titanic Power",
+    "message": "The earth trembles! A Titanic Cerberus Pet has awakened with 500,000 Coins and 300 Gems!",
     "reward": {
       "petRarity": "Titanic",
       "species": "Cerberus",
@@ -60,6 +65,7 @@
     "code": "LUCKY",
     "type": "large_coin_pack",
     "label": "Fortune Token",
+    "message": "Good luck shines bright! 250,000 Coins, 150 Gems, and a 20-minute Luck Boost granted!",
     "reward": {
       "coins": 250000,
       "gems": 150,
@@ -72,6 +78,7 @@
     "code": "HATCH",
     "type": "mid_coin_pack",
     "label": "Speed Incubator",
+    "message": "Hatching overdrive activated! 50,000 Coins, 75 Gems, and 3 Instant Hatch Potions granted!",
     "reward": {
       "coins": 50000,
       "gems": 75,
@@ -83,6 +90,7 @@
     "code": "ULTIMATE",
     "type": "ultimate_bundle",
     "label": "The Ultimate Azuki Treasure",
+    "message": "SUPREME AZUKI ASCENSION! You claimed the legendary Ultimate Azuki Emperor Pet, 1 Billion Coins, and 5,000 Gems!",
     "reward": {
       "petRarity": "Ultimate Azuki",
       "species": "Azuki Emperor",
@@ -95,6 +103,7 @@
     "code": "SECRET",
     "type": "secret_pet",
     "label": "Secret Dimension Key",
+    "message": "A cosmic rift opens! Secret Void Monarch Pet unlocked with 2 Million Coins and 500 Gems!",
     "reward": {
       "petRarity": "Secret",
       "species": "Void Monarch",
@@ -107,6 +116,7 @@
     "code": "REBIRTH",
     "type": "immortal_bundle",
     "label": "Immortal Ascension Bundle",
+    "message": "Ascended into immortality! You received the Immortal Golden Seraph Pet, 100 Million Coins, and 2,500 Gems!",
     "reward": {
       "petRarity": "Immortal",
       "species": "Golden Seraph",
@@ -116,9 +126,10 @@
     }
   },
   {
-    "code": "START10H774",
-    "type": "starter_pack",
+    "code": "START101",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 10,
@@ -126,9 +137,10 @@
     }
   },
   {
-    "code": "START11V511",
-    "type": "starter_pack",
+    "code": "START102",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 15,
@@ -136,9 +148,10 @@
     }
   },
   {
-    "code": "START139337",
-    "type": "starter_pack",
+    "code": "START103",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 20,
@@ -146,9 +159,10 @@
     }
   },
   {
-    "code": "START14N154",
-    "type": "starter_pack",
+    "code": "START104",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 25,
@@ -156,9 +170,10 @@
     }
   },
   {
-    "code": "START161773",
-    "type": "starter_pack",
+    "code": "START105",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 10,
@@ -166,9 +181,10 @@
     }
   },
   {
-    "code": "START17F863",
-    "type": "starter_pack",
+    "code": "START106",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 15,
@@ -176,9 +192,10 @@
     }
   },
   {
-    "code": "START18T137",
-    "type": "starter_pack",
+    "code": "START107",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 20,
@@ -186,9 +203,10 @@
     }
   },
   {
-    "code": "START1A7615",
-    "type": "starter_pack",
+    "code": "START108",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 25,
@@ -196,9 +214,10 @@
     }
   },
   {
-    "code": "START1BL681",
-    "type": "starter_pack",
+    "code": "START109",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 10,
@@ -206,9 +225,10 @@
     }
   },
   {
-    "code": "START1CZ756",
-    "type": "starter_pack",
+    "code": "START110",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 15,
@@ -216,9 +236,10 @@
     }
   },
   {
-    "code": "START1ED461",
-    "type": "starter_pack",
+    "code": "START111",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 20,
@@ -226,9 +247,10 @@
     }
   },
   {
-    "code": "START1FR406",
-    "type": "starter_pack",
+    "code": "START112",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 25,
@@ -236,9 +258,10 @@
     }
   },
   {
-    "code": "START1H5132",
-    "type": "starter_pack",
+    "code": "START113",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 10,
@@ -246,9 +269,10 @@
     }
   },
   {
-    "code": "START1IJ869",
-    "type": "starter_pack",
+    "code": "START114",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 15,
@@ -256,9 +280,10 @@
     }
   },
   {
-    "code": "START1JX530",
-    "type": "starter_pack",
+    "code": "START115",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 20,
@@ -266,9 +291,10 @@
     }
   },
   {
-    "code": "START1LB523",
-    "type": "starter_pack",
+    "code": "START116",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 25,
@@ -276,9 +302,10 @@
     }
   },
   {
-    "code": "START1MP110",
-    "type": "starter_pack",
+    "code": "START117",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 10,
@@ -286,9 +313,10 @@
     }
   },
   {
-    "code": "START1O3534",
-    "type": "starter_pack",
+    "code": "START118",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 15,
@@ -296,9 +324,10 @@
     }
   },
   {
-    "code": "START1PH567",
-    "type": "starter_pack",
+    "code": "START119",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 20,
@@ -306,9 +335,10 @@
     }
   },
   {
-    "code": "START1QV866",
-    "type": "starter_pack",
+    "code": "START120",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 25,
@@ -316,9 +346,10 @@
     }
   },
   {
-    "code": "START1S9908",
-    "type": "starter_pack",
+    "code": "START121",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 10,
@@ -326,9 +357,10 @@
     }
   },
   {
-    "code": "START1TN549",
-    "type": "starter_pack",
+    "code": "START122",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 15,
@@ -336,9 +368,10 @@
     }
   },
   {
-    "code": "START1V1619",
-    "type": "starter_pack",
+    "code": "START123",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 20,
@@ -346,9 +379,10 @@
     }
   },
   {
-    "code": "START1WF817",
-    "type": "starter_pack",
+    "code": "START124",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 25,
@@ -356,9 +390,10 @@
     }
   },
   {
-    "code": "START1XT401",
-    "type": "starter_pack",
+    "code": "START125",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 10,
@@ -366,9 +401,10 @@
     }
   },
   {
-    "code": "START1Z7177",
-    "type": "starter_pack",
+    "code": "START126",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 15,
@@ -376,9 +412,10 @@
     }
   },
   {
-    "code": "START20L659",
-    "type": "starter_pack",
+    "code": "START127",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 20,
@@ -386,9 +423,10 @@
     }
   },
   {
-    "code": "START21Z610",
-    "type": "starter_pack",
+    "code": "START128",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 25,
@@ -396,9 +434,10 @@
     }
   },
   {
-    "code": "START23D201",
-    "type": "starter_pack",
+    "code": "START129",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 10,
@@ -406,9 +445,10 @@
     }
   },
   {
-    "code": "START24R608",
-    "type": "starter_pack",
+    "code": "START130",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 15,
@@ -416,9 +456,10 @@
     }
   },
   {
-    "code": "START265947",
-    "type": "starter_pack",
+    "code": "START131",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 20,
@@ -426,9 +467,10 @@
     }
   },
   {
-    "code": "START27J330",
-    "type": "starter_pack",
+    "code": "START132",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 25,
@@ -436,9 +478,10 @@
     }
   },
   {
-    "code": "START28X318",
-    "type": "starter_pack",
+    "code": "START133",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 10,
@@ -446,9 +489,10 @@
     }
   },
   {
-    "code": "START2AB426",
-    "type": "starter_pack",
+    "code": "START134",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 15,
@@ -456,9 +500,10 @@
     }
   },
   {
-    "code": "START2BP642",
-    "type": "starter_pack",
+    "code": "START135",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 20,
@@ -466,9 +511,10 @@
     }
   },
   {
-    "code": "START2D3271",
-    "type": "starter_pack",
+    "code": "START136",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 25,
@@ -476,9 +522,10 @@
     }
   },
   {
-    "code": "START2EH137",
-    "type": "starter_pack",
+    "code": "START137",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 10,
@@ -486,9 +533,10 @@
     }
   },
   {
-    "code": "START2FV620",
-    "type": "starter_pack",
+    "code": "START138",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 15,
@@ -496,9 +544,10 @@
     }
   },
   {
-    "code": "START2H9873",
-    "type": "starter_pack",
+    "code": "START139",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 20,
@@ -506,9 +555,10 @@
     }
   },
   {
-    "code": "START2IN656",
-    "type": "starter_pack",
+    "code": "START140",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 25,
@@ -516,9 +566,10 @@
     }
   },
   {
-    "code": "START2K1212",
-    "type": "starter_pack",
+    "code": "START141",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 10,
@@ -526,9 +577,10 @@
     }
   },
   {
-    "code": "START2LF734",
-    "type": "starter_pack",
+    "code": "START142",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 15,
@@ -536,9 +588,10 @@
     }
   },
   {
-    "code": "START2MT594",
-    "type": "starter_pack",
+    "code": "START143",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 20,
@@ -546,9 +599,10 @@
     }
   },
   {
-    "code": "START2O7909",
-    "type": "starter_pack",
+    "code": "START144",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 25,
@@ -556,9 +610,10 @@
     }
   },
   {
-    "code": "START2PL952",
-    "type": "starter_pack",
+    "code": "START145",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 10,
@@ -566,9 +621,10 @@
     }
   },
   {
-    "code": "START2QZ611",
-    "type": "starter_pack",
+    "code": "START146",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 15,
@@ -576,9 +632,10 @@
     }
   },
   {
-    "code": "START2SD307",
-    "type": "starter_pack",
+    "code": "START147",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 20,
@@ -586,9 +643,10 @@
     }
   },
   {
-    "code": "START2TR521",
-    "type": "starter_pack",
+    "code": "START148",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 25,
@@ -596,9 +654,10 @@
     }
   },
   {
-    "code": "START2V5684",
-    "type": "starter_pack",
+    "code": "START149",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 10,
@@ -606,9 +665,10 @@
     }
   },
   {
-    "code": "START2WJ542",
-    "type": "starter_pack",
+    "code": "START150",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 15,
@@ -616,9 +676,10 @@
     }
   },
   {
-    "code": "START2XX959",
-    "type": "starter_pack",
+    "code": "START151",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 20,
@@ -626,9 +687,10 @@
     }
   },
   {
-    "code": "START2ZB205",
-    "type": "starter_pack",
+    "code": "START152",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 25,
@@ -636,9 +698,10 @@
     }
   },
   {
-    "code": "START30P745",
-    "type": "starter_pack",
+    "code": "START153",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 10,
@@ -646,9 +709,10 @@
     }
   },
   {
-    "code": "START323537",
-    "type": "starter_pack",
+    "code": "START154",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 15,
@@ -656,9 +720,10 @@
     }
   },
   {
-    "code": "START33H692",
-    "type": "starter_pack",
+    "code": "START155",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 20,
@@ -666,9 +731,10 @@
     }
   },
   {
-    "code": "START34V940",
-    "type": "starter_pack",
+    "code": "START156",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 25,
@@ -676,9 +742,10 @@
     }
   },
   {
-    "code": "START369719",
-    "type": "starter_pack",
+    "code": "START157",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 10,
@@ -686,9 +753,10 @@
     }
   },
   {
-    "code": "START37N147",
-    "type": "starter_pack",
+    "code": "START158",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 15,
@@ -696,9 +764,10 @@
     }
   },
   {
-    "code": "START391772",
-    "type": "starter_pack",
+    "code": "START159",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 20,
@@ -706,9 +775,10 @@
     }
   },
   {
-    "code": "START3AF299",
-    "type": "starter_pack",
+    "code": "START160",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 25,
@@ -716,9 +786,10 @@
     }
   },
   {
-    "code": "START3BT759",
-    "type": "starter_pack",
+    "code": "START161",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 10,
@@ -726,9 +797,10 @@
     }
   },
   {
-    "code": "START3D7101",
-    "type": "starter_pack",
+    "code": "START162",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 15,
@@ -736,9 +808,10 @@
     }
   },
   {
-    "code": "START3EL922",
-    "type": "starter_pack",
+    "code": "START163",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 20,
@@ -746,9 +819,10 @@
     }
   },
   {
-    "code": "START3FZ178",
-    "type": "starter_pack",
+    "code": "START164",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 25,
@@ -756,9 +830,10 @@
     }
   },
   {
-    "code": "START3HD613",
-    "type": "starter_pack",
+    "code": "START165",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 10,
@@ -766,9 +841,10 @@
     }
   },
   {
-    "code": "START3IR985",
-    "type": "starter_pack",
+    "code": "START166",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 15,
@@ -776,9 +852,10 @@
     }
   },
   {
-    "code": "START3K5816",
-    "type": "starter_pack",
+    "code": "START167",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 20,
@@ -786,9 +863,10 @@
     }
   },
   {
-    "code": "START3LJ551",
-    "type": "starter_pack",
+    "code": "START168",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 25,
@@ -796,9 +874,10 @@
     }
   },
   {
-    "code": "START3MX322",
-    "type": "starter_pack",
+    "code": "START169",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 10,
@@ -806,9 +885,10 @@
     }
   },
   {
-    "code": "START3OB943",
-    "type": "starter_pack",
+    "code": "START170",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 15,
@@ -816,9 +896,10 @@
     }
   },
   {
-    "code": "START3PP543",
-    "type": "starter_pack",
+    "code": "START171",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 20,
@@ -826,9 +907,10 @@
     }
   },
   {
-    "code": "START3R3789",
-    "type": "starter_pack",
+    "code": "START172",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 25,
@@ -836,9 +918,10 @@
     }
   },
   {
-    "code": "START3SH208",
-    "type": "starter_pack",
+    "code": "START173",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 10,
@@ -846,9 +929,10 @@
     }
   },
   {
-    "code": "START3TV857",
-    "type": "starter_pack",
+    "code": "START174",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 15,
@@ -856,9 +940,10 @@
     }
   },
   {
-    "code": "START3V9529",
-    "type": "starter_pack",
+    "code": "START175",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 20,
@@ -866,9 +951,10 @@
     }
   },
   {
-    "code": "START3WN579",
-    "type": "starter_pack",
+    "code": "START176",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 25,
@@ -876,9 +962,10 @@
     }
   },
   {
-    "code": "START3Y1258",
-    "type": "starter_pack",
+    "code": "START177",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 10,
@@ -886,9 +973,10 @@
     }
   },
   {
-    "code": "START3ZF109",
-    "type": "starter_pack",
+    "code": "START178",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 15,
@@ -896,9 +984,10 @@
     }
   },
   {
-    "code": "START40T300",
-    "type": "starter_pack",
+    "code": "START179",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 20,
@@ -906,9 +995,10 @@
     }
   },
   {
-    "code": "START427979",
-    "type": "starter_pack",
+    "code": "START180",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 25,
@@ -916,9 +1006,10 @@
     }
   },
   {
-    "code": "START43L804",
-    "type": "starter_pack",
+    "code": "START181",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 10,
@@ -926,9 +1017,10 @@
     }
   },
   {
-    "code": "START44Z766",
-    "type": "starter_pack",
+    "code": "START182",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 15,
@@ -936,9 +1028,10 @@
     }
   },
   {
-    "code": "START46D643",
-    "type": "starter_pack",
+    "code": "START183",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 20,
@@ -946,9 +1039,10 @@
     }
   },
   {
-    "code": "START47R738",
-    "type": "starter_pack",
+    "code": "START184",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 25,
@@ -956,9 +1050,10 @@
     }
   },
   {
-    "code": "START495275",
-    "type": "starter_pack",
+    "code": "START185",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 10,
@@ -966,9 +1061,10 @@
     }
   },
   {
-    "code": "START4AJ177",
-    "type": "starter_pack",
+    "code": "START186",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 15,
@@ -976,9 +1072,10 @@
     }
   },
   {
-    "code": "START4BX639",
-    "type": "starter_pack",
+    "code": "START187",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 20,
@@ -986,9 +1083,10 @@
     }
   },
   {
-    "code": "START4DB401",
-    "type": "starter_pack",
+    "code": "START188",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 25,
@@ -996,9 +1094,10 @@
     }
   },
   {
-    "code": "START4EP438",
-    "type": "starter_pack",
+    "code": "START189",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 10,
@@ -1006,9 +1105,10 @@
     }
   },
   {
-    "code": "START4G3537",
-    "type": "starter_pack",
+    "code": "START190",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 15,
@@ -1016,9 +1116,10 @@
     }
   },
   {
-    "code": "START4HH343",
-    "type": "starter_pack",
+    "code": "START191",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 20,
@@ -1026,9 +1127,10 @@
     }
   },
   {
-    "code": "START4IV900",
-    "type": "starter_pack",
+    "code": "START192",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 25,
@@ -1036,9 +1138,10 @@
     }
   },
   {
-    "code": "START4K9584",
-    "type": "starter_pack",
+    "code": "START193",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 10,
@@ -1046,9 +1149,10 @@
     }
   },
   {
-    "code": "START4LN184",
-    "type": "starter_pack",
+    "code": "START194",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 15,
@@ -1056,9 +1160,10 @@
     }
   },
   {
-    "code": "START4N1999",
-    "type": "starter_pack",
+    "code": "START195",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 20,
@@ -1066,9 +1171,10 @@
     }
   },
   {
-    "code": "START4OF802",
-    "type": "starter_pack",
+    "code": "START196",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 25,
@@ -1076,9 +1182,10 @@
     }
   },
   {
-    "code": "START4PT109",
-    "type": "starter_pack",
+    "code": "START197",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 10,
@@ -1086,9 +1193,10 @@
     }
   },
   {
-    "code": "START4R7119",
-    "type": "starter_pack",
+    "code": "START198",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 15,
@@ -1096,9 +1204,10 @@
     }
   },
   {
-    "code": "START4SL317",
-    "type": "starter_pack",
+    "code": "START199",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 20,
@@ -1106,9 +1215,10 @@
     }
   },
   {
-    "code": "START4TZ148",
-    "type": "starter_pack",
+    "code": "START200",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 25,
@@ -1116,9 +1226,10 @@
     }
   },
   {
-    "code": "START4VD403",
-    "type": "starter_pack",
+    "code": "START201",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 10,
@@ -1126,9 +1237,10 @@
     }
   },
   {
-    "code": "START4WR435",
-    "type": "starter_pack",
+    "code": "START202",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 15,
@@ -1136,9 +1248,10 @@
     }
   },
   {
-    "code": "START4Y5481",
-    "type": "starter_pack",
+    "code": "START203",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 20,
@@ -1146,9 +1259,10 @@
     }
   },
   {
-    "code": "START4ZJ825",
-    "type": "starter_pack",
+    "code": "START204",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 25,
@@ -1156,9 +1270,10 @@
     }
   },
   {
-    "code": "START50X348",
-    "type": "starter_pack",
+    "code": "START205",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 10,
@@ -1166,9 +1281,10 @@
     }
   },
   {
-    "code": "START52B321",
-    "type": "starter_pack",
+    "code": "START206",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 15,
@@ -1176,9 +1292,10 @@
     }
   },
   {
-    "code": "START53P198",
-    "type": "starter_pack",
+    "code": "START207",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 20,
@@ -1186,9 +1303,10 @@
     }
   },
   {
-    "code": "START553195",
-    "type": "starter_pack",
+    "code": "START208",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 25,
@@ -1196,9 +1314,10 @@
     }
   },
   {
-    "code": "START56H484",
-    "type": "starter_pack",
+    "code": "START209",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 10,
@@ -1206,9 +1325,10 @@
     }
   },
   {
-    "code": "START57V852",
-    "type": "starter_pack",
+    "code": "START210",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 15,
@@ -1216,9 +1336,10 @@
     }
   },
   {
-    "code": "START599738",
-    "type": "starter_pack",
+    "code": "START211",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 20,
@@ -1226,9 +1347,10 @@
     }
   },
   {
-    "code": "START5AN170",
-    "type": "starter_pack",
+    "code": "START212",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 25,
@@ -1236,9 +1358,10 @@
     }
   },
   {
-    "code": "START5C1595",
-    "type": "starter_pack",
+    "code": "START213",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 10,
@@ -1246,9 +1369,10 @@
     }
   },
   {
-    "code": "START5DF155",
-    "type": "starter_pack",
+    "code": "START214",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 15,
@@ -1256,9 +1380,10 @@
     }
   },
   {
-    "code": "START5ET699",
-    "type": "starter_pack",
+    "code": "START215",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 20,
@@ -1266,9 +1391,10 @@
     }
   },
   {
-    "code": "START5G7656",
-    "type": "starter_pack",
+    "code": "START216",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 25,
@@ -1276,9 +1402,10 @@
     }
   },
   {
-    "code": "START5HL790",
-    "type": "starter_pack",
+    "code": "START217",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 10,
@@ -1286,9 +1413,10 @@
     }
   },
   {
-    "code": "START5IZ313",
-    "type": "starter_pack",
+    "code": "START218",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 15,
@@ -1296,9 +1424,10 @@
     }
   },
   {
-    "code": "START5KD211",
-    "type": "starter_pack",
+    "code": "START219",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 20,
@@ -1306,9 +1435,10 @@
     }
   },
   {
-    "code": "START5LR152",
-    "type": "starter_pack",
+    "code": "START220",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 25,
@@ -1316,9 +1446,10 @@
     }
   },
   {
-    "code": "START5N5191",
-    "type": "starter_pack",
+    "code": "START221",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 10,
@@ -1326,9 +1457,10 @@
     }
   },
   {
-    "code": "START5OJ318",
-    "type": "starter_pack",
+    "code": "START222",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 15,
@@ -1336,9 +1468,10 @@
     }
   },
   {
-    "code": "START5PX752",
-    "type": "starter_pack",
+    "code": "START223",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 20,
@@ -1346,9 +1479,10 @@
     }
   },
   {
-    "code": "START5RB507",
-    "type": "starter_pack",
+    "code": "START224",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 25,
@@ -1356,9 +1490,10 @@
     }
   },
   {
-    "code": "START5SP694",
-    "type": "starter_pack",
+    "code": "START225",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 10,
@@ -1366,9 +1501,10 @@
     }
   },
   {
-    "code": "START5U3194",
-    "type": "starter_pack",
+    "code": "START226",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 15,
@@ -1376,9 +1512,10 @@
     }
   },
   {
-    "code": "START5VH396",
-    "type": "starter_pack",
+    "code": "START227",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 20,
@@ -1386,9 +1523,10 @@
     }
   },
   {
-    "code": "START5WV830",
-    "type": "starter_pack",
+    "code": "START228",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 25,
@@ -1396,9 +1534,10 @@
     }
   },
   {
-    "code": "START5Y9568",
-    "type": "starter_pack",
+    "code": "START229",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 10,
@@ -1406,9 +1545,10 @@
     }
   },
   {
-    "code": "START5ZN167",
-    "type": "starter_pack",
+    "code": "START230",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 15,
@@ -1416,9 +1556,10 @@
     }
   },
   {
-    "code": "START611557",
-    "type": "starter_pack",
+    "code": "START231",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 20,
@@ -1426,9 +1567,10 @@
     }
   },
   {
-    "code": "START62F668",
-    "type": "starter_pack",
+    "code": "START232",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 25,
@@ -1436,9 +1578,10 @@
     }
   },
   {
-    "code": "START63T165",
-    "type": "starter_pack",
+    "code": "START233",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 10,
@@ -1446,9 +1589,10 @@
     }
   },
   {
-    "code": "START657626",
-    "type": "starter_pack",
+    "code": "START234",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 15,
@@ -1456,9 +1600,10 @@
     }
   },
   {
-    "code": "START66L270",
-    "type": "starter_pack",
+    "code": "START235",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 20,
@@ -1466,9 +1611,10 @@
     }
   },
   {
-    "code": "START67Z598",
-    "type": "starter_pack",
+    "code": "START236",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 25,
@@ -1476,9 +1622,10 @@
     }
   },
   {
-    "code": "START69D460",
-    "type": "starter_pack",
+    "code": "START237",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 10,
@@ -1486,9 +1633,10 @@
     }
   },
   {
-    "code": "START6AR567",
-    "type": "starter_pack",
+    "code": "START238",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 15,
@@ -1496,9 +1644,10 @@
     }
   },
   {
-    "code": "START6C5634",
-    "type": "starter_pack",
+    "code": "START239",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 20,
@@ -1506,9 +1655,10 @@
     }
   },
   {
-    "code": "START6DJ927",
-    "type": "starter_pack",
+    "code": "START240",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 25,
@@ -1516,9 +1666,10 @@
     }
   },
   {
-    "code": "START6EX492",
-    "type": "starter_pack",
+    "code": "START241",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 10,
@@ -1526,9 +1677,10 @@
     }
   },
   {
-    "code": "START6GB136",
-    "type": "starter_pack",
+    "code": "START242",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 15,
@@ -1536,9 +1688,10 @@
     }
   },
   {
-    "code": "START6HP844",
-    "type": "starter_pack",
+    "code": "START243",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 20,
@@ -1546,9 +1699,10 @@
     }
   },
   {
-    "code": "START6J3452",
-    "type": "starter_pack",
+    "code": "START244",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 25,
@@ -1556,9 +1710,10 @@
     }
   },
   {
-    "code": "START6KH877",
-    "type": "starter_pack",
+    "code": "START245",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 10,
@@ -1566,9 +1721,10 @@
     }
   },
   {
-    "code": "START6LV972",
-    "type": "starter_pack",
+    "code": "START246",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 15,
@@ -1576,9 +1732,10 @@
     }
   },
   {
-    "code": "START6N9749",
-    "type": "starter_pack",
+    "code": "START247",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 20,
@@ -1586,9 +1743,10 @@
     }
   },
   {
-    "code": "START6ON645",
-    "type": "starter_pack",
+    "code": "START248",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 25,
@@ -1596,9 +1754,10 @@
     }
   },
   {
-    "code": "START6Q1493",
-    "type": "starter_pack",
+    "code": "START249",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 10,
@@ -1606,9 +1765,10 @@
     }
   },
   {
-    "code": "START6RF621",
-    "type": "starter_pack",
+    "code": "START250",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 15,
@@ -1616,9 +1776,10 @@
     }
   },
   {
-    "code": "START6ST203",
-    "type": "starter_pack",
+    "code": "START251",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 20,
@@ -1626,9 +1787,10 @@
     }
   },
   {
-    "code": "START6U7994",
-    "type": "starter_pack",
+    "code": "START252",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 25,
@@ -1636,9 +1798,10 @@
     }
   },
   {
-    "code": "START6VL618",
-    "type": "starter_pack",
+    "code": "START253",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 10,
@@ -1646,9 +1809,10 @@
     }
   },
   {
-    "code": "START6WZ277",
-    "type": "starter_pack",
+    "code": "START254",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 15,
@@ -1656,9 +1820,10 @@
     }
   },
   {
-    "code": "START6YD350",
-    "type": "starter_pack",
+    "code": "START255",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 20,
@@ -1666,9 +1831,10 @@
     }
   },
   {
-    "code": "START6ZR551",
-    "type": "starter_pack",
+    "code": "START256",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 25,
@@ -1676,9 +1842,10 @@
     }
   },
   {
-    "code": "START715918",
-    "type": "starter_pack",
+    "code": "START257",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 10,
@@ -1686,9 +1853,10 @@
     }
   },
   {
-    "code": "START72J490",
-    "type": "starter_pack",
+    "code": "START258",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 15,
@@ -1696,9 +1864,10 @@
     }
   },
   {
-    "code": "START73X149",
-    "type": "starter_pack",
+    "code": "START259",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 20,
@@ -1706,9 +1875,10 @@
     }
   },
   {
-    "code": "START75B525",
-    "type": "starter_pack",
+    "code": "START260",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 25,
@@ -1716,9 +1886,10 @@
     }
   },
   {
-    "code": "START76P809",
-    "type": "starter_pack",
+    "code": "START261",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 10,
@@ -1726,9 +1897,10 @@
     }
   },
   {
-    "code": "START783604",
-    "type": "starter_pack",
+    "code": "START262",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 15,
@@ -1736,9 +1908,10 @@
     }
   },
   {
-    "code": "START79H516",
-    "type": "starter_pack",
+    "code": "START263",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 20,
@@ -1746,9 +1919,10 @@
     }
   },
   {
-    "code": "START7AV501",
-    "type": "starter_pack",
+    "code": "START264",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 25,
@@ -1756,9 +1930,10 @@
     }
   },
   {
-    "code": "START7C9277",
-    "type": "starter_pack",
+    "code": "START265",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 10,
@@ -1766,9 +1941,10 @@
     }
   },
   {
-    "code": "START7DN312",
-    "type": "starter_pack",
+    "code": "START266",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 15,
@@ -1776,9 +1952,10 @@
     }
   },
   {
-    "code": "START7F1505",
-    "type": "starter_pack",
+    "code": "START267",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 20,
@@ -1786,9 +1963,10 @@
     }
   },
   {
-    "code": "START7GF200",
-    "type": "starter_pack",
+    "code": "START268",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 25,
@@ -1796,9 +1974,10 @@
     }
   },
   {
-    "code": "START7HT822",
-    "type": "starter_pack",
+    "code": "START269",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 10,
@@ -1806,9 +1985,10 @@
     }
   },
   {
-    "code": "START7J7677",
-    "type": "starter_pack",
+    "code": "START270",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 15,
@@ -1816,9 +1996,10 @@
     }
   },
   {
-    "code": "START7KL691",
-    "type": "starter_pack",
+    "code": "START271",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 20,
@@ -1826,9 +2007,10 @@
     }
   },
   {
-    "code": "START7LZ897",
-    "type": "starter_pack",
+    "code": "START272",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 25,
@@ -1836,9 +2018,10 @@
     }
   },
   {
-    "code": "START7ND483",
-    "type": "starter_pack",
+    "code": "START273",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 10,
@@ -1846,9 +2029,10 @@
     }
   },
   {
-    "code": "START7OR474",
-    "type": "starter_pack",
+    "code": "START274",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 15,
@@ -1856,9 +2040,10 @@
     }
   },
   {
-    "code": "START7Q5622",
-    "type": "starter_pack",
+    "code": "START275",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 20,
@@ -1866,9 +2051,10 @@
     }
   },
   {
-    "code": "START7RJ271",
-    "type": "starter_pack",
+    "code": "START276",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 25,
@@ -1876,9 +2062,10 @@
     }
   },
   {
-    "code": "START7SX924",
-    "type": "starter_pack",
+    "code": "START277",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 10,
@@ -1886,9 +2073,10 @@
     }
   },
   {
-    "code": "START7UB541",
-    "type": "starter_pack",
+    "code": "START278",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 15,
@@ -1896,9 +2084,10 @@
     }
   },
   {
-    "code": "START7VP143",
-    "type": "starter_pack",
+    "code": "START279",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 20,
@@ -1906,9 +2095,10 @@
     }
   },
   {
-    "code": "START7X3907",
-    "type": "starter_pack",
+    "code": "START280",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 25,
@@ -1916,9 +2106,10 @@
     }
   },
   {
-    "code": "START7YH580",
-    "type": "starter_pack",
+    "code": "START281",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 10,
@@ -1926,9 +2117,10 @@
     }
   },
   {
-    "code": "START7ZV518",
-    "type": "starter_pack",
+    "code": "START282",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 15,
@@ -1936,9 +2128,10 @@
     }
   },
   {
-    "code": "START819136",
-    "type": "starter_pack",
+    "code": "START283",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 20,
@@ -1946,9 +2139,10 @@
     }
   },
   {
-    "code": "START82N704",
-    "type": "starter_pack",
+    "code": "START284",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 25,
@@ -1956,9 +2150,10 @@
     }
   },
   {
-    "code": "START841950",
-    "type": "starter_pack",
+    "code": "START285",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 10,
@@ -1966,9 +2161,10 @@
     }
   },
   {
-    "code": "START85F575",
-    "type": "starter_pack",
+    "code": "START286",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 15,
@@ -1976,9 +2172,10 @@
     }
   },
   {
-    "code": "START86T670",
-    "type": "starter_pack",
+    "code": "START287",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 20,
@@ -1986,9 +2183,10 @@
     }
   },
   {
-    "code": "START887526",
-    "type": "starter_pack",
+    "code": "START288",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 25,
@@ -1996,9 +2194,10 @@
     }
   },
   {
-    "code": "START89L229",
-    "type": "starter_pack",
+    "code": "START289",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 10,
@@ -2006,9 +2205,10 @@
     }
   },
   {
-    "code": "START8AZ577",
-    "type": "starter_pack",
+    "code": "START290",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 15,
@@ -2016,9 +2216,10 @@
     }
   },
   {
-    "code": "START8CD584",
-    "type": "starter_pack",
+    "code": "START291",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 20,
@@ -2026,9 +2227,10 @@
     }
   },
   {
-    "code": "START8DR628",
-    "type": "starter_pack",
+    "code": "START292",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 25,
@@ -2036,9 +2238,10 @@
     }
   },
   {
-    "code": "START8F5329",
-    "type": "starter_pack",
+    "code": "START293",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 10,
@@ -2046,9 +2249,10 @@
     }
   },
   {
-    "code": "START8GJ749",
-    "type": "starter_pack",
+    "code": "START294",
+    "message": "Claimed Starter Supplies! You received 2,500 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2500,
       "gems": 15,
@@ -2056,9 +2260,10 @@
     }
   },
   {
-    "code": "START8HX336",
-    "type": "starter_pack",
+    "code": "START295",
+    "message": "Claimed Starter Supplies! You received 3,000 Coins and 20 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 3000,
       "gems": 20,
@@ -2066,9 +2271,10 @@
     }
   },
   {
-    "code": "START8JB415",
-    "type": "starter_pack",
+    "code": "START296",
+    "message": "Claimed Starter Supplies! You received 1,000 Coins and 25 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1000,
       "gems": 25,
@@ -2076,9 +2282,10 @@
     }
   },
   {
-    "code": "START8KP804",
-    "type": "starter_pack",
+    "code": "START297",
+    "message": "Claimed Starter Supplies! You received 1,500 Coins and 10 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 1500,
       "gems": 10,
@@ -2086,9 +2293,10 @@
     }
   },
   {
-    "code": "START8M3906",
-    "type": "starter_pack",
+    "code": "START298",
+    "message": "Claimed Starter Supplies! You received 2,000 Coins and 15 Gems!",
     "label": "Starter Supplies",
+    "type": "starter_pack",
     "reward": {
       "coins": 2000,
       "gems": 15,
@@ -2096,9 +2304,10 @@
     }
   },
   {
-    "code": "COIN2ZZ238",
-    "type": "mid_coin_pack",
+    "code": "COIN201",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 30,
@@ -2106,9 +2315,10 @@
     }
   },
   {
-    "code": "COIN31D157",
-    "type": "mid_coin_pack",
+    "code": "COIN202",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 40,
@@ -2116,9 +2326,10 @@
     }
   },
   {
-    "code": "COIN32R331",
-    "type": "mid_coin_pack",
+    "code": "COIN203",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 50,
@@ -2126,9 +2337,10 @@
     }
   },
   {
-    "code": "COIN345275",
-    "type": "mid_coin_pack",
+    "code": "COIN204",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 60,
@@ -2136,9 +2348,10 @@
     }
   },
   {
-    "code": "COIN35J423",
-    "type": "mid_coin_pack",
+    "code": "COIN205",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 70,
@@ -2146,9 +2359,10 @@
     }
   },
   {
-    "code": "COIN36X654",
-    "type": "mid_coin_pack",
+    "code": "COIN206",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 30,
@@ -2156,9 +2370,10 @@
     }
   },
   {
-    "code": "COIN38B133",
-    "type": "mid_coin_pack",
+    "code": "COIN207",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 40,
@@ -2166,9 +2381,10 @@
     }
   },
   {
-    "code": "COIN39P368",
-    "type": "mid_coin_pack",
+    "code": "COIN208",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 50,
@@ -2176,9 +2392,10 @@
     }
   },
   {
-    "code": "COIN3B3369",
-    "type": "mid_coin_pack",
+    "code": "COIN209",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 60,
@@ -2186,9 +2403,10 @@
     }
   },
   {
-    "code": "COIN3CH247",
-    "type": "mid_coin_pack",
+    "code": "COIN210",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 70,
@@ -2196,9 +2414,10 @@
     }
   },
   {
-    "code": "COIN3DV639",
-    "type": "mid_coin_pack",
+    "code": "COIN211",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 30,
@@ -2206,9 +2425,10 @@
     }
   },
   {
-    "code": "COIN3F9947",
-    "type": "mid_coin_pack",
+    "code": "COIN212",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 40,
@@ -2216,9 +2436,10 @@
     }
   },
   {
-    "code": "COIN3GN591",
-    "type": "mid_coin_pack",
+    "code": "COIN213",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 50,
@@ -2226,9 +2447,10 @@
     }
   },
   {
-    "code": "COIN3I1632",
-    "type": "mid_coin_pack",
+    "code": "COIN214",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 60,
@@ -2236,9 +2458,10 @@
     }
   },
   {
-    "code": "COIN3JF552",
-    "type": "mid_coin_pack",
+    "code": "COIN215",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 70,
@@ -2246,9 +2469,10 @@
     }
   },
   {
-    "code": "COIN3KT444",
-    "type": "mid_coin_pack",
+    "code": "COIN216",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 30,
@@ -2256,9 +2480,10 @@
     }
   },
   {
-    "code": "COIN3M7990",
-    "type": "mid_coin_pack",
+    "code": "COIN217",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 40,
@@ -2266,9 +2491,10 @@
     }
   },
   {
-    "code": "COIN3NL766",
-    "type": "mid_coin_pack",
+    "code": "COIN218",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 50,
@@ -2276,9 +2502,10 @@
     }
   },
   {
-    "code": "COIN3OZ949",
-    "type": "mid_coin_pack",
+    "code": "COIN219",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 60,
@@ -2286,9 +2513,10 @@
     }
   },
   {
-    "code": "COIN3QD375",
-    "type": "mid_coin_pack",
+    "code": "COIN220",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 70,
@@ -2296,9 +2524,10 @@
     }
   },
   {
-    "code": "COIN3RR460",
-    "type": "mid_coin_pack",
+    "code": "COIN221",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 30,
@@ -2306,9 +2535,10 @@
     }
   },
   {
-    "code": "COIN3T5398",
-    "type": "mid_coin_pack",
+    "code": "COIN222",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 40,
@@ -2316,9 +2546,10 @@
     }
   },
   {
-    "code": "COIN3UJ653",
-    "type": "mid_coin_pack",
+    "code": "COIN223",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 50,
@@ -2326,9 +2557,10 @@
     }
   },
   {
-    "code": "COIN3VX586",
-    "type": "mid_coin_pack",
+    "code": "COIN224",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 60,
@@ -2336,9 +2568,10 @@
     }
   },
   {
-    "code": "COIN3XB954",
-    "type": "mid_coin_pack",
+    "code": "COIN225",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 70,
@@ -2346,9 +2579,10 @@
     }
   },
   {
-    "code": "COIN3YP837",
-    "type": "mid_coin_pack",
+    "code": "COIN226",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 30,
@@ -2356,9 +2590,10 @@
     }
   },
   {
-    "code": "COIN403404",
-    "type": "mid_coin_pack",
+    "code": "COIN227",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 40,
@@ -2366,9 +2601,10 @@
     }
   },
   {
-    "code": "COIN41H694",
-    "type": "mid_coin_pack",
+    "code": "COIN228",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 50,
@@ -2376,9 +2612,10 @@
     }
   },
   {
-    "code": "COIN42V530",
-    "type": "mid_coin_pack",
+    "code": "COIN229",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 60,
@@ -2386,9 +2623,10 @@
     }
   },
   {
-    "code": "COIN449285",
-    "type": "mid_coin_pack",
+    "code": "COIN230",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 70,
@@ -2396,9 +2634,10 @@
     }
   },
   {
-    "code": "COIN45N551",
-    "type": "mid_coin_pack",
+    "code": "COIN231",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 30,
@@ -2406,9 +2645,10 @@
     }
   },
   {
-    "code": "COIN471635",
-    "type": "mid_coin_pack",
+    "code": "COIN232",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 40,
@@ -2416,9 +2656,10 @@
     }
   },
   {
-    "code": "COIN48F900",
-    "type": "mid_coin_pack",
+    "code": "COIN233",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 50,
@@ -2426,9 +2667,10 @@
     }
   },
   {
-    "code": "COIN49T348",
-    "type": "mid_coin_pack",
+    "code": "COIN234",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 60,
@@ -2436,9 +2678,10 @@
     }
   },
   {
-    "code": "COIN4B7750",
-    "type": "mid_coin_pack",
+    "code": "COIN235",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 70,
@@ -2446,9 +2689,10 @@
     }
   },
   {
-    "code": "COIN4CL134",
-    "type": "mid_coin_pack",
+    "code": "COIN236",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 30,
@@ -2456,9 +2700,10 @@
     }
   },
   {
-    "code": "COIN4DZ337",
-    "type": "mid_coin_pack",
+    "code": "COIN237",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 40,
@@ -2466,9 +2711,10 @@
     }
   },
   {
-    "code": "COIN4FD217",
-    "type": "mid_coin_pack",
+    "code": "COIN238",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 50,
@@ -2476,9 +2722,10 @@
     }
   },
   {
-    "code": "COIN4GR719",
-    "type": "mid_coin_pack",
+    "code": "COIN239",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 60,
@@ -2486,9 +2733,10 @@
     }
   },
   {
-    "code": "COIN4I5954",
-    "type": "mid_coin_pack",
+    "code": "COIN240",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 70,
@@ -2496,9 +2744,10 @@
     }
   },
   {
-    "code": "COIN4JJ276",
-    "type": "mid_coin_pack",
+    "code": "COIN241",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 30,
@@ -2506,9 +2755,10 @@
     }
   },
   {
-    "code": "COIN4KX219",
-    "type": "mid_coin_pack",
+    "code": "COIN242",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 40,
@@ -2516,9 +2766,10 @@
     }
   },
   {
-    "code": "COIN4MB789",
-    "type": "mid_coin_pack",
+    "code": "COIN243",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 50,
@@ -2526,9 +2777,10 @@
     }
   },
   {
-    "code": "COIN4NP713",
-    "type": "mid_coin_pack",
+    "code": "COIN244",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 60,
@@ -2536,9 +2788,10 @@
     }
   },
   {
-    "code": "COIN4P3420",
-    "type": "mid_coin_pack",
+    "code": "COIN245",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 70,
@@ -2546,9 +2799,10 @@
     }
   },
   {
-    "code": "COIN4QH457",
-    "type": "mid_coin_pack",
+    "code": "COIN246",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 30,
@@ -2556,9 +2810,10 @@
     }
   },
   {
-    "code": "COIN4RV207",
-    "type": "mid_coin_pack",
+    "code": "COIN247",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 40,
@@ -2566,9 +2821,10 @@
     }
   },
   {
-    "code": "COIN4T9146",
-    "type": "mid_coin_pack",
+    "code": "COIN248",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 50,
@@ -2576,9 +2832,10 @@
     }
   },
   {
-    "code": "COIN4UN756",
-    "type": "mid_coin_pack",
+    "code": "COIN249",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 60,
@@ -2586,9 +2843,10 @@
     }
   },
   {
-    "code": "COIN4W1515",
-    "type": "mid_coin_pack",
+    "code": "COIN250",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 70,
@@ -2596,9 +2854,10 @@
     }
   },
   {
-    "code": "COIN4XF417",
-    "type": "mid_coin_pack",
+    "code": "COIN251",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 30,
@@ -2606,9 +2865,10 @@
     }
   },
   {
-    "code": "COIN4YT109",
-    "type": "mid_coin_pack",
+    "code": "COIN252",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 40,
@@ -2616,9 +2876,10 @@
     }
   },
   {
-    "code": "COIN507764",
-    "type": "mid_coin_pack",
+    "code": "COIN253",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 50,
@@ -2626,9 +2887,10 @@
     }
   },
   {
-    "code": "COIN51L757",
-    "type": "mid_coin_pack",
+    "code": "COIN254",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 60,
@@ -2636,9 +2898,10 @@
     }
   },
   {
-    "code": "COIN52Z705",
-    "type": "mid_coin_pack",
+    "code": "COIN255",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 70,
@@ -2646,9 +2909,10 @@
     }
   },
   {
-    "code": "COIN54D118",
-    "type": "mid_coin_pack",
+    "code": "COIN256",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 30,
@@ -2656,9 +2920,10 @@
     }
   },
   {
-    "code": "COIN55R478",
-    "type": "mid_coin_pack",
+    "code": "COIN257",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 40,
@@ -2666,9 +2931,10 @@
     }
   },
   {
-    "code": "COIN575988",
-    "type": "mid_coin_pack",
+    "code": "COIN258",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 50,
@@ -2676,9 +2942,10 @@
     }
   },
   {
-    "code": "COIN58J583",
-    "type": "mid_coin_pack",
+    "code": "COIN259",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 60,
@@ -2686,9 +2953,10 @@
     }
   },
   {
-    "code": "COIN59X831",
-    "type": "mid_coin_pack",
+    "code": "COIN260",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 70,
@@ -2696,9 +2964,10 @@
     }
   },
   {
-    "code": "COIN5BB565",
-    "type": "mid_coin_pack",
+    "code": "COIN261",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 30,
@@ -2706,9 +2975,10 @@
     }
   },
   {
-    "code": "COIN5CP976",
-    "type": "mid_coin_pack",
+    "code": "COIN262",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 40,
@@ -2716,9 +2986,10 @@
     }
   },
   {
-    "code": "COIN5E3154",
-    "type": "mid_coin_pack",
+    "code": "COIN263",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 50,
@@ -2726,9 +2997,10 @@
     }
   },
   {
-    "code": "COIN5FH892",
-    "type": "mid_coin_pack",
+    "code": "COIN264",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 60,
@@ -2736,9 +3008,10 @@
     }
   },
   {
-    "code": "COIN5GV519",
-    "type": "mid_coin_pack",
+    "code": "COIN265",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 70,
@@ -2746,9 +3019,10 @@
     }
   },
   {
-    "code": "COIN5I9839",
-    "type": "mid_coin_pack",
+    "code": "COIN266",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 30,
@@ -2756,9 +3030,10 @@
     }
   },
   {
-    "code": "COIN5JN728",
-    "type": "mid_coin_pack",
+    "code": "COIN267",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 40,
@@ -2766,9 +3041,10 @@
     }
   },
   {
-    "code": "COIN5L1126",
-    "type": "mid_coin_pack",
+    "code": "COIN268",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 50,
@@ -2776,9 +3052,10 @@
     }
   },
   {
-    "code": "COIN5MF161",
-    "type": "mid_coin_pack",
+    "code": "COIN269",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 60,
@@ -2786,9 +3063,10 @@
     }
   },
   {
-    "code": "COIN5NT623",
-    "type": "mid_coin_pack",
+    "code": "COIN270",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 70,
@@ -2796,9 +3074,10 @@
     }
   },
   {
-    "code": "COIN5P7497",
-    "type": "mid_coin_pack",
+    "code": "COIN271",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 30,
@@ -2806,9 +3085,10 @@
     }
   },
   {
-    "code": "COIN5QL483",
-    "type": "mid_coin_pack",
+    "code": "COIN272",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 40,
@@ -2816,9 +3096,10 @@
     }
   },
   {
-    "code": "COIN5RZ325",
-    "type": "mid_coin_pack",
+    "code": "COIN273",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 50,
@@ -2826,9 +3107,10 @@
     }
   },
   {
-    "code": "COIN5TD134",
-    "type": "mid_coin_pack",
+    "code": "COIN274",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 60,
@@ -2836,9 +3118,10 @@
     }
   },
   {
-    "code": "COIN5UR668",
-    "type": "mid_coin_pack",
+    "code": "COIN275",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 70,
@@ -2846,9 +3129,10 @@
     }
   },
   {
-    "code": "COIN5W5416",
-    "type": "mid_coin_pack",
+    "code": "COIN276",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 30,
@@ -2856,9 +3140,10 @@
     }
   },
   {
-    "code": "COIN5XJ313",
-    "type": "mid_coin_pack",
+    "code": "COIN277",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 40,
@@ -2866,9 +3151,10 @@
     }
   },
   {
-    "code": "COIN5YX707",
-    "type": "mid_coin_pack",
+    "code": "COIN278",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 50,
@@ -2876,9 +3162,10 @@
     }
   },
   {
-    "code": "COIN60B481",
-    "type": "mid_coin_pack",
+    "code": "COIN279",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 60,
@@ -2886,9 +3173,10 @@
     }
   },
   {
-    "code": "COIN61P438",
-    "type": "mid_coin_pack",
+    "code": "COIN280",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 70,
@@ -2896,9 +3184,10 @@
     }
   },
   {
-    "code": "COIN633985",
-    "type": "mid_coin_pack",
+    "code": "COIN281",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 30,
@@ -2906,9 +3195,10 @@
     }
   },
   {
-    "code": "COIN64H946",
-    "type": "mid_coin_pack",
+    "code": "COIN282",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 40,
@@ -2916,9 +3206,10 @@
     }
   },
   {
-    "code": "COIN65V181",
-    "type": "mid_coin_pack",
+    "code": "COIN283",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 50,
@@ -2926,9 +3217,10 @@
     }
   },
   {
-    "code": "COIN679228",
-    "type": "mid_coin_pack",
+    "code": "COIN284",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 60,
@@ -2936,9 +3228,10 @@
     }
   },
   {
-    "code": "COIN68N718",
-    "type": "mid_coin_pack",
+    "code": "COIN285",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 70,
@@ -2946,9 +3239,10 @@
     }
   },
   {
-    "code": "COIN6A1419",
-    "type": "mid_coin_pack",
+    "code": "COIN286",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 30,
@@ -2956,9 +3250,10 @@
     }
   },
   {
-    "code": "COIN6BF494",
-    "type": "mid_coin_pack",
+    "code": "COIN287",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 40,
@@ -2966,9 +3261,10 @@
     }
   },
   {
-    "code": "COIN6CT797",
-    "type": "mid_coin_pack",
+    "code": "COIN288",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 50,
@@ -2976,9 +3272,10 @@
     }
   },
   {
-    "code": "COIN6E7408",
-    "type": "mid_coin_pack",
+    "code": "COIN289",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 60,
@@ -2986,9 +3283,10 @@
     }
   },
   {
-    "code": "COIN6FL472",
-    "type": "mid_coin_pack",
+    "code": "COIN290",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 70,
@@ -2996,9 +3294,10 @@
     }
   },
   {
-    "code": "COIN6GZ280",
-    "type": "mid_coin_pack",
+    "code": "COIN291",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 30,
@@ -3006,9 +3305,10 @@
     }
   },
   {
-    "code": "COIN6ID220",
-    "type": "mid_coin_pack",
+    "code": "COIN292",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 40,
@@ -3016,9 +3316,10 @@
     }
   },
   {
-    "code": "COIN6JR976",
-    "type": "mid_coin_pack",
+    "code": "COIN293",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 50,
@@ -3026,9 +3327,10 @@
     }
   },
   {
-    "code": "COIN6L5188",
-    "type": "mid_coin_pack",
+    "code": "COIN294",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 60,
@@ -3036,9 +3338,10 @@
     }
   },
   {
-    "code": "COIN6MJ620",
-    "type": "mid_coin_pack",
+    "code": "COIN295",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 70,
@@ -3046,9 +3349,10 @@
     }
   },
   {
-    "code": "COIN6NX465",
-    "type": "mid_coin_pack",
+    "code": "COIN296",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 30,
@@ -3056,9 +3360,10 @@
     }
   },
   {
-    "code": "COIN6PB930",
-    "type": "mid_coin_pack",
+    "code": "COIN297",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 40,
@@ -3066,9 +3371,10 @@
     }
   },
   {
-    "code": "COIN6QP627",
-    "type": "mid_coin_pack",
+    "code": "COIN298",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 50,
@@ -3076,9 +3382,10 @@
     }
   },
   {
-    "code": "COIN6S3750",
-    "type": "mid_coin_pack",
+    "code": "COIN299",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 60,
@@ -3086,9 +3393,10 @@
     }
   },
   {
-    "code": "COIN6TH525",
-    "type": "mid_coin_pack",
+    "code": "COIN300",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 70,
@@ -3096,9 +3404,10 @@
     }
   },
   {
-    "code": "COIN6UV125",
-    "type": "mid_coin_pack",
+    "code": "COIN301",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 30,
@@ -3106,9 +3415,10 @@
     }
   },
   {
-    "code": "COIN6W9800",
-    "type": "mid_coin_pack",
+    "code": "COIN302",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 40,
@@ -3116,9 +3426,10 @@
     }
   },
   {
-    "code": "COIN6XN820",
-    "type": "mid_coin_pack",
+    "code": "COIN303",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 50,
@@ -3126,9 +3437,10 @@
     }
   },
   {
-    "code": "COIN6Z1145",
-    "type": "mid_coin_pack",
+    "code": "COIN304",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 60,
@@ -3136,9 +3448,10 @@
     }
   },
   {
-    "code": "COIN70F579",
-    "type": "mid_coin_pack",
+    "code": "COIN305",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 70,
@@ -3146,9 +3459,10 @@
     }
   },
   {
-    "code": "COIN71T894",
-    "type": "mid_coin_pack",
+    "code": "COIN306",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 30,
@@ -3156,9 +3470,10 @@
     }
   },
   {
-    "code": "COIN737618",
-    "type": "mid_coin_pack",
+    "code": "COIN307",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 40,
@@ -3166,9 +3481,10 @@
     }
   },
   {
-    "code": "COIN74L877",
-    "type": "mid_coin_pack",
+    "code": "COIN308",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 50,
@@ -3176,9 +3492,10 @@
     }
   },
   {
-    "code": "COIN75Z718",
-    "type": "mid_coin_pack",
+    "code": "COIN309",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 60,
@@ -3186,9 +3503,10 @@
     }
   },
   {
-    "code": "COIN77D710",
-    "type": "mid_coin_pack",
+    "code": "COIN310",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 70,
@@ -3196,9 +3514,10 @@
     }
   },
   {
-    "code": "COIN78R444",
-    "type": "mid_coin_pack",
+    "code": "COIN311",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 30,
@@ -3206,9 +3525,10 @@
     }
   },
   {
-    "code": "COIN7A5700",
-    "type": "mid_coin_pack",
+    "code": "COIN312",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 40,
@@ -3216,9 +3536,10 @@
     }
   },
   {
-    "code": "COIN7BJ342",
-    "type": "mid_coin_pack",
+    "code": "COIN313",
+    "message": "Unlocked Adventurer Stash! You received 15,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 15000,
       "gems": 50,
@@ -3226,9 +3547,10 @@
     }
   },
   {
-    "code": "COIN7CX819",
-    "type": "mid_coin_pack",
+    "code": "COIN314",
+    "message": "Unlocked Adventurer Stash! You received 20,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 20000,
       "gems": 60,
@@ -3236,9 +3558,10 @@
     }
   },
   {
-    "code": "COIN7EB233",
-    "type": "mid_coin_pack",
+    "code": "COIN315",
+    "message": "Unlocked Adventurer Stash! You received 25,000 Coins and 70 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 25000,
       "gems": 70,
@@ -3246,9 +3569,10 @@
     }
   },
   {
-    "code": "COIN7FP906",
-    "type": "mid_coin_pack",
+    "code": "COIN316",
+    "message": "Unlocked Adventurer Stash! You received 30,000 Coins and 30 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 30000,
       "gems": 30,
@@ -3256,9 +3580,10 @@
     }
   },
   {
-    "code": "COIN7H3534",
-    "type": "mid_coin_pack",
+    "code": "COIN317",
+    "message": "Unlocked Adventurer Stash! You received 35,000 Coins and 40 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 35000,
       "gems": 40,
@@ -3266,9 +3591,10 @@
     }
   },
   {
-    "code": "COIN7IH992",
-    "type": "mid_coin_pack",
+    "code": "COIN318",
+    "message": "Unlocked Adventurer Stash! You received 40,000 Coins and 50 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 40000,
       "gems": 50,
@@ -3276,9 +3602,10 @@
     }
   },
   {
-    "code": "COIN7JV412",
-    "type": "mid_coin_pack",
+    "code": "COIN319",
+    "message": "Unlocked Adventurer Stash! You received 45,000 Coins and 60 Gems!",
     "label": "Adventurer Stash",
+    "type": "mid_coin_pack",
     "reward": {
       "coins": 45000,
       "gems": 60,
@@ -3286,9 +3613,10 @@
     }
   },
   {
-    "code": "VAULT46Y101",
-    "type": "large_coin_pack",
+    "code": "VAULT301",
+    "message": "Opened Grand Vault! You received 100,000 Coins and 100 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 100000,
       "gems": 100,
@@ -3296,9 +3624,10 @@
     }
   },
   {
-    "code": "VAULT48C424",
-    "type": "large_coin_pack",
+    "code": "VAULT302",
+    "message": "Opened Grand Vault! You received 120,000 Coins and 125 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 120000,
       "gems": 125,
@@ -3306,9 +3635,10 @@
     }
   },
   {
-    "code": "VAULT49Q391",
-    "type": "large_coin_pack",
+    "code": "VAULT303",
+    "message": "Opened Grand Vault! You received 140,000 Coins and 150 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 140000,
       "gems": 150,
@@ -3316,9 +3646,10 @@
     }
   },
   {
-    "code": "VAULT4B4940",
-    "type": "large_coin_pack",
+    "code": "VAULT304",
+    "message": "Opened Grand Vault! You received 160,000 Coins and 175 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 160000,
       "gems": 175,
@@ -3326,9 +3657,10 @@
     }
   },
   {
-    "code": "VAULT4CI721",
-    "type": "large_coin_pack",
+    "code": "VAULT305",
+    "message": "Opened Grand Vault! You received 180,000 Coins and 200 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 180000,
       "gems": 200,
@@ -3336,9 +3668,10 @@
     }
   },
   {
-    "code": "VAULT4DW644",
-    "type": "large_coin_pack",
+    "code": "VAULT306",
+    "message": "Opened Grand Vault! You received 200,000 Coins and 225 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 200000,
       "gems": 225,
@@ -3346,9 +3679,10 @@
     }
   },
   {
-    "code": "VAULT4FA127",
-    "type": "large_coin_pack",
+    "code": "VAULT307",
+    "message": "Opened Grand Vault! You received 220,000 Coins and 100 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 220000,
       "gems": 100,
@@ -3356,9 +3690,10 @@
     }
   },
   {
-    "code": "VAULT4GO140",
-    "type": "large_coin_pack",
+    "code": "VAULT308",
+    "message": "Opened Grand Vault! You received 240,000 Coins and 125 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 240000,
       "gems": 125,
@@ -3366,9 +3701,10 @@
     }
   },
   {
-    "code": "VAULT4I2604",
-    "type": "large_coin_pack",
+    "code": "VAULT309",
+    "message": "Opened Grand Vault! You received 260,000 Coins and 150 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 260000,
       "gems": 150,
@@ -3376,9 +3712,10 @@
     }
   },
   {
-    "code": "VAULT4JG516",
-    "type": "large_coin_pack",
+    "code": "VAULT310",
+    "message": "Opened Grand Vault! You received 280,000 Coins and 175 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 280000,
       "gems": 175,
@@ -3386,9 +3723,10 @@
     }
   },
   {
-    "code": "VAULT4KU419",
-    "type": "large_coin_pack",
+    "code": "VAULT311",
+    "message": "Opened Grand Vault! You received 100,000 Coins and 200 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 100000,
       "gems": 200,
@@ -3396,9 +3734,10 @@
     }
   },
   {
-    "code": "VAULT4M8381",
-    "type": "large_coin_pack",
+    "code": "VAULT312",
+    "message": "Opened Grand Vault! You received 120,000 Coins and 225 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 120000,
       "gems": 225,
@@ -3406,9 +3745,10 @@
     }
   },
   {
-    "code": "VAULT4NM383",
-    "type": "large_coin_pack",
+    "code": "VAULT313",
+    "message": "Opened Grand Vault! You received 140,000 Coins and 100 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 140000,
       "gems": 100,
@@ -3416,9 +3756,10 @@
     }
   },
   {
-    "code": "VAULT4P0142",
-    "type": "large_coin_pack",
+    "code": "VAULT314",
+    "message": "Opened Grand Vault! You received 160,000 Coins and 125 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 160000,
       "gems": 125,
@@ -3426,9 +3767,10 @@
     }
   },
   {
-    "code": "VAULT4QE240",
-    "type": "large_coin_pack",
+    "code": "VAULT315",
+    "message": "Opened Grand Vault! You received 180,000 Coins and 150 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 180000,
       "gems": 150,
@@ -3436,9 +3778,10 @@
     }
   },
   {
-    "code": "VAULT4RS962",
-    "type": "large_coin_pack",
+    "code": "VAULT316",
+    "message": "Opened Grand Vault! You received 200,000 Coins and 175 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 200000,
       "gems": 175,
@@ -3446,9 +3789,10 @@
     }
   },
   {
-    "code": "VAULT4T6503",
-    "type": "large_coin_pack",
+    "code": "VAULT317",
+    "message": "Opened Grand Vault! You received 220,000 Coins and 200 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 220000,
       "gems": 200,
@@ -3456,9 +3800,10 @@
     }
   },
   {
-    "code": "VAULT4UK409",
-    "type": "large_coin_pack",
+    "code": "VAULT318",
+    "message": "Opened Grand Vault! You received 240,000 Coins and 225 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 240000,
       "gems": 225,
@@ -3466,9 +3811,10 @@
     }
   },
   {
-    "code": "VAULT4VY404",
-    "type": "large_coin_pack",
+    "code": "VAULT319",
+    "message": "Opened Grand Vault! You received 260,000 Coins and 100 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 260000,
       "gems": 100,
@@ -3476,9 +3822,10 @@
     }
   },
   {
-    "code": "VAULT4XC892",
-    "type": "large_coin_pack",
+    "code": "VAULT320",
+    "message": "Opened Grand Vault! You received 280,000 Coins and 125 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 280000,
       "gems": 125,
@@ -3486,9 +3833,10 @@
     }
   },
   {
-    "code": "VAULT4YQ990",
-    "type": "large_coin_pack",
+    "code": "VAULT321",
+    "message": "Opened Grand Vault! You received 100,000 Coins and 150 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 100000,
       "gems": 150,
@@ -3496,9 +3844,10 @@
     }
   },
   {
-    "code": "VAULT504590",
-    "type": "large_coin_pack",
+    "code": "VAULT322",
+    "message": "Opened Grand Vault! You received 120,000 Coins and 175 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 120000,
       "gems": 175,
@@ -3506,9 +3855,10 @@
     }
   },
   {
-    "code": "VAULT51I507",
-    "type": "large_coin_pack",
+    "code": "VAULT323",
+    "message": "Opened Grand Vault! You received 140,000 Coins and 200 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 140000,
       "gems": 200,
@@ -3516,9 +3866,10 @@
     }
   },
   {
-    "code": "VAULT52W805",
-    "type": "large_coin_pack",
+    "code": "VAULT324",
+    "message": "Opened Grand Vault! You received 160,000 Coins and 225 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 160000,
       "gems": 225,
@@ -3526,9 +3877,10 @@
     }
   },
   {
-    "code": "VAULT54A166",
-    "type": "large_coin_pack",
+    "code": "VAULT325",
+    "message": "Opened Grand Vault! You received 180,000 Coins and 100 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 180000,
       "gems": 100,
@@ -3536,9 +3888,10 @@
     }
   },
   {
-    "code": "VAULT55O482",
-    "type": "large_coin_pack",
+    "code": "VAULT326",
+    "message": "Opened Grand Vault! You received 200,000 Coins and 125 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 200000,
       "gems": 125,
@@ -3546,9 +3899,10 @@
     }
   },
   {
-    "code": "VAULT572119",
-    "type": "large_coin_pack",
+    "code": "VAULT327",
+    "message": "Opened Grand Vault! You received 220,000 Coins and 150 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 220000,
       "gems": 150,
@@ -3556,9 +3910,10 @@
     }
   },
   {
-    "code": "VAULT58G169",
-    "type": "large_coin_pack",
+    "code": "VAULT328",
+    "message": "Opened Grand Vault! You received 240,000 Coins and 175 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 240000,
       "gems": 175,
@@ -3566,9 +3921,10 @@
     }
   },
   {
-    "code": "VAULT59U684",
-    "type": "large_coin_pack",
+    "code": "VAULT329",
+    "message": "Opened Grand Vault! You received 260,000 Coins and 200 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 260000,
       "gems": 200,
@@ -3576,9 +3932,10 @@
     }
   },
   {
-    "code": "VAULT5B8154",
-    "type": "large_coin_pack",
+    "code": "VAULT330",
+    "message": "Opened Grand Vault! You received 280,000 Coins and 225 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 280000,
       "gems": 225,
@@ -3586,9 +3943,10 @@
     }
   },
   {
-    "code": "VAULT5CM378",
-    "type": "large_coin_pack",
+    "code": "VAULT331",
+    "message": "Opened Grand Vault! You received 100,000 Coins and 100 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 100000,
       "gems": 100,
@@ -3596,9 +3954,10 @@
     }
   },
   {
-    "code": "VAULT5E0257",
-    "type": "large_coin_pack",
+    "code": "VAULT332",
+    "message": "Opened Grand Vault! You received 120,000 Coins and 125 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 120000,
       "gems": 125,
@@ -3606,9 +3965,10 @@
     }
   },
   {
-    "code": "VAULT5FE896",
-    "type": "large_coin_pack",
+    "code": "VAULT333",
+    "message": "Opened Grand Vault! You received 140,000 Coins and 150 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 140000,
       "gems": 150,
@@ -3616,9 +3976,10 @@
     }
   },
   {
-    "code": "VAULT5GS849",
-    "type": "large_coin_pack",
+    "code": "VAULT334",
+    "message": "Opened Grand Vault! You received 160,000 Coins and 175 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 160000,
       "gems": 175,
@@ -3626,9 +3987,10 @@
     }
   },
   {
-    "code": "VAULT5I6176",
-    "type": "large_coin_pack",
+    "code": "VAULT335",
+    "message": "Opened Grand Vault! You received 180,000 Coins and 200 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 180000,
       "gems": 200,
@@ -3636,9 +3998,10 @@
     }
   },
   {
-    "code": "VAULT5JK617",
-    "type": "large_coin_pack",
+    "code": "VAULT336",
+    "message": "Opened Grand Vault! You received 200,000 Coins and 225 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 200000,
       "gems": 225,
@@ -3646,9 +4009,10 @@
     }
   },
   {
-    "code": "VAULT5KY682",
-    "type": "large_coin_pack",
+    "code": "VAULT337",
+    "message": "Opened Grand Vault! You received 220,000 Coins and 100 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 220000,
       "gems": 100,
@@ -3656,9 +4020,10 @@
     }
   },
   {
-    "code": "VAULT5MC551",
-    "type": "large_coin_pack",
+    "code": "VAULT338",
+    "message": "Opened Grand Vault! You received 240,000 Coins and 125 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 240000,
       "gems": 125,
@@ -3666,9 +4031,10 @@
     }
   },
   {
-    "code": "VAULT5NQ894",
-    "type": "large_coin_pack",
+    "code": "VAULT339",
+    "message": "Opened Grand Vault! You received 260,000 Coins and 150 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 260000,
       "gems": 150,
@@ -3676,9 +4042,10 @@
     }
   },
   {
-    "code": "VAULT5P4493",
-    "type": "large_coin_pack",
+    "code": "VAULT340",
+    "message": "Opened Grand Vault! You received 280,000 Coins and 175 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 280000,
       "gems": 175,
@@ -3686,9 +4053,10 @@
     }
   },
   {
-    "code": "VAULT5QI567",
-    "type": "large_coin_pack",
+    "code": "VAULT341",
+    "message": "Opened Grand Vault! You received 100,000 Coins and 200 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 100000,
       "gems": 200,
@@ -3696,9 +4064,10 @@
     }
   },
   {
-    "code": "VAULT5RW528",
-    "type": "large_coin_pack",
+    "code": "VAULT342",
+    "message": "Opened Grand Vault! You received 120,000 Coins and 225 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 120000,
       "gems": 225,
@@ -3706,9 +4075,10 @@
     }
   },
   {
-    "code": "VAULT5TA296",
-    "type": "large_coin_pack",
+    "code": "VAULT343",
+    "message": "Opened Grand Vault! You received 140,000 Coins and 100 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 140000,
       "gems": 100,
@@ -3716,9 +4086,10 @@
     }
   },
   {
-    "code": "VAULT5UO533",
-    "type": "large_coin_pack",
+    "code": "VAULT344",
+    "message": "Opened Grand Vault! You received 160,000 Coins and 125 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 160000,
       "gems": 125,
@@ -3726,9 +4097,10 @@
     }
   },
   {
-    "code": "VAULT5W2147",
-    "type": "large_coin_pack",
+    "code": "VAULT345",
+    "message": "Opened Grand Vault! You received 180,000 Coins and 150 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 180000,
       "gems": 150,
@@ -3736,9 +4108,10 @@
     }
   },
   {
-    "code": "VAULT5XG889",
-    "type": "large_coin_pack",
+    "code": "VAULT346",
+    "message": "Opened Grand Vault! You received 200,000 Coins and 175 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 200000,
       "gems": 175,
@@ -3746,9 +4119,10 @@
     }
   },
   {
-    "code": "VAULT5YU359",
-    "type": "large_coin_pack",
+    "code": "VAULT347",
+    "message": "Opened Grand Vault! You received 220,000 Coins and 200 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 220000,
       "gems": 200,
@@ -3756,9 +4130,10 @@
     }
   },
   {
-    "code": "VAULT608415",
-    "type": "large_coin_pack",
+    "code": "VAULT348",
+    "message": "Opened Grand Vault! You received 240,000 Coins and 225 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 240000,
       "gems": 225,
@@ -3766,9 +4141,10 @@
     }
   },
   {
-    "code": "VAULT61M795",
-    "type": "large_coin_pack",
+    "code": "VAULT349",
+    "message": "Opened Grand Vault! You received 260,000 Coins and 100 Gems!",
     "label": "Grand Vault",
+    "type": "large_coin_pack",
     "reward": {
       "coins": 260000,
       "gems": 100,
@@ -3776,9 +4152,10 @@
     }
   },
   {
-    "code": "BOOST4ON275",
-    "type": "gem_buff_pack",
+    "code": "BOOST401",
+    "message": "Overdrive boost engaged! You received 150 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 150,
       "buffType": "coin_2x",
@@ -3787,9 +4164,10 @@
     }
   },
   {
-    "code": "BOOST4Q1929",
-    "type": "gem_buff_pack",
+    "code": "BOOST402",
+    "message": "Overdrive boost engaged! You received 175 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 175,
       "buffType": "coin_2x",
@@ -3798,9 +4176,10 @@
     }
   },
   {
-    "code": "BOOST4RF921",
-    "type": "gem_buff_pack",
+    "code": "BOOST403",
+    "message": "Overdrive boost engaged! You received 200 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 200,
       "buffType": "coin_2x",
@@ -3809,9 +4188,10 @@
     }
   },
   {
-    "code": "BOOST4ST332",
-    "type": "gem_buff_pack",
+    "code": "BOOST404",
+    "message": "Overdrive boost engaged! You received 225 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 225,
       "buffType": "coin_2x",
@@ -3820,9 +4200,10 @@
     }
   },
   {
-    "code": "BOOST4U7208",
-    "type": "gem_buff_pack",
+    "code": "BOOST405",
+    "message": "Overdrive boost engaged! You received 250 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 250,
       "buffType": "coin_2x",
@@ -3831,9 +4212,10 @@
     }
   },
   {
-    "code": "BOOST4VL131",
-    "type": "gem_buff_pack",
+    "code": "BOOST406",
+    "message": "Overdrive boost engaged! You received 150 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 150,
       "buffType": "coin_2x",
@@ -3842,9 +4224,10 @@
     }
   },
   {
-    "code": "BOOST4WZ956",
-    "type": "gem_buff_pack",
+    "code": "BOOST407",
+    "message": "Overdrive boost engaged! You received 175 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 175,
       "buffType": "coin_2x",
@@ -3853,9 +4236,10 @@
     }
   },
   {
-    "code": "BOOST4YD602",
-    "type": "gem_buff_pack",
+    "code": "BOOST408",
+    "message": "Overdrive boost engaged! You received 200 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 200,
       "buffType": "coin_2x",
@@ -3864,9 +4248,10 @@
     }
   },
   {
-    "code": "BOOST4ZR613",
-    "type": "gem_buff_pack",
+    "code": "BOOST409",
+    "message": "Overdrive boost engaged! You received 225 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 225,
       "buffType": "coin_2x",
@@ -3875,9 +4260,10 @@
     }
   },
   {
-    "code": "BOOST515922",
-    "type": "gem_buff_pack",
+    "code": "BOOST410",
+    "message": "Overdrive boost engaged! You received 250 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 250,
       "buffType": "coin_2x",
@@ -3886,9 +4272,10 @@
     }
   },
   {
-    "code": "BOOST52J706",
-    "type": "gem_buff_pack",
+    "code": "BOOST411",
+    "message": "Overdrive boost engaged! You received 150 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 150,
       "buffType": "coin_2x",
@@ -3897,9 +4284,10 @@
     }
   },
   {
-    "code": "BOOST53X575",
-    "type": "gem_buff_pack",
+    "code": "BOOST412",
+    "message": "Overdrive boost engaged! You received 175 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 175,
       "buffType": "coin_2x",
@@ -3908,9 +4296,10 @@
     }
   },
   {
-    "code": "BOOST55B818",
-    "type": "gem_buff_pack",
+    "code": "BOOST413",
+    "message": "Overdrive boost engaged! You received 200 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 200,
       "buffType": "coin_2x",
@@ -3919,9 +4308,10 @@
     }
   },
   {
-    "code": "BOOST56P391",
-    "type": "gem_buff_pack",
+    "code": "BOOST414",
+    "message": "Overdrive boost engaged! You received 225 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 225,
       "buffType": "coin_2x",
@@ -3930,9 +4320,10 @@
     }
   },
   {
-    "code": "BOOST583591",
-    "type": "gem_buff_pack",
+    "code": "BOOST415",
+    "message": "Overdrive boost engaged! You received 250 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 250,
       "buffType": "coin_2x",
@@ -3941,9 +4332,10 @@
     }
   },
   {
-    "code": "BOOST59H264",
-    "type": "gem_buff_pack",
+    "code": "BOOST416",
+    "message": "Overdrive boost engaged! You received 150 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 150,
       "buffType": "coin_2x",
@@ -3952,9 +4344,10 @@
     }
   },
   {
-    "code": "BOOST5AV287",
-    "type": "gem_buff_pack",
+    "code": "BOOST417",
+    "message": "Overdrive boost engaged! You received 175 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 175,
       "buffType": "coin_2x",
@@ -3963,9 +4356,10 @@
     }
   },
   {
-    "code": "BOOST5C9405",
-    "type": "gem_buff_pack",
+    "code": "BOOST418",
+    "message": "Overdrive boost engaged! You received 200 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 200,
       "buffType": "coin_2x",
@@ -3974,9 +4368,10 @@
     }
   },
   {
-    "code": "BOOST5DN410",
-    "type": "gem_buff_pack",
+    "code": "BOOST419",
+    "message": "Overdrive boost engaged! You received 225 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 225,
       "buffType": "coin_2x",
@@ -3985,9 +4380,10 @@
     }
   },
   {
-    "code": "BOOST5F1929",
-    "type": "gem_buff_pack",
+    "code": "BOOST420",
+    "message": "Overdrive boost engaged! You received 250 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 250,
       "buffType": "coin_2x",
@@ -3996,9 +4392,10 @@
     }
   },
   {
-    "code": "BOOST5GF924",
-    "type": "gem_buff_pack",
+    "code": "BOOST421",
+    "message": "Overdrive boost engaged! You received 150 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 150,
       "buffType": "coin_2x",
@@ -4007,9 +4404,10 @@
     }
   },
   {
-    "code": "BOOST5HT286",
-    "type": "gem_buff_pack",
+    "code": "BOOST422",
+    "message": "Overdrive boost engaged! You received 175 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 175,
       "buffType": "coin_2x",
@@ -4018,9 +4416,10 @@
     }
   },
   {
-    "code": "BOOST5J7742",
-    "type": "gem_buff_pack",
+    "code": "BOOST423",
+    "message": "Overdrive boost engaged! You received 200 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 200,
       "buffType": "coin_2x",
@@ -4029,9 +4428,10 @@
     }
   },
   {
-    "code": "BOOST5KL425",
-    "type": "gem_buff_pack",
+    "code": "BOOST424",
+    "message": "Overdrive boost engaged! You received 225 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 225,
       "buffType": "coin_2x",
@@ -4040,9 +4440,10 @@
     }
   },
   {
-    "code": "BOOST5LZ483",
-    "type": "gem_buff_pack",
+    "code": "BOOST425",
+    "message": "Overdrive boost engaged! You received 250 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 250,
       "buffType": "coin_2x",
@@ -4051,9 +4452,10 @@
     }
   },
   {
-    "code": "BOOST5ND571",
-    "type": "gem_buff_pack",
+    "code": "BOOST426",
+    "message": "Overdrive boost engaged! You received 150 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 150,
       "buffType": "coin_2x",
@@ -4062,9 +4464,10 @@
     }
   },
   {
-    "code": "BOOST5OR429",
-    "type": "gem_buff_pack",
+    "code": "BOOST427",
+    "message": "Overdrive boost engaged! You received 175 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 175,
       "buffType": "coin_2x",
@@ -4073,9 +4476,10 @@
     }
   },
   {
-    "code": "BOOST5Q5601",
-    "type": "gem_buff_pack",
+    "code": "BOOST428",
+    "message": "Overdrive boost engaged! You received 200 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 200,
       "buffType": "coin_2x",
@@ -4084,9 +4488,10 @@
     }
   },
   {
-    "code": "BOOST5RJ662",
-    "type": "gem_buff_pack",
+    "code": "BOOST429",
+    "message": "Overdrive boost engaged! You received 225 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 225,
       "buffType": "coin_2x",
@@ -4095,9 +4500,10 @@
     }
   },
   {
-    "code": "BOOST5SX653",
-    "type": "gem_buff_pack",
+    "code": "BOOST430",
+    "message": "Overdrive boost engaged! You received 250 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 250,
       "buffType": "coin_2x",
@@ -4106,9 +4512,10 @@
     }
   },
   {
-    "code": "BOOST5UB201",
-    "type": "gem_buff_pack",
+    "code": "BOOST431",
+    "message": "Overdrive boost engaged! You received 150 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 150,
       "buffType": "coin_2x",
@@ -4117,9 +4524,10 @@
     }
   },
   {
-    "code": "BOOST5VP953",
-    "type": "gem_buff_pack",
+    "code": "BOOST432",
+    "message": "Overdrive boost engaged! You received 175 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 175,
       "buffType": "coin_2x",
@@ -4128,9 +4536,10 @@
     }
   },
   {
-    "code": "BOOST5X3736",
-    "type": "gem_buff_pack",
+    "code": "BOOST433",
+    "message": "Overdrive boost engaged! You received 200 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 200,
       "buffType": "coin_2x",
@@ -4139,9 +4548,10 @@
     }
   },
   {
-    "code": "BOOST5YH875",
-    "type": "gem_buff_pack",
+    "code": "BOOST434",
+    "message": "Overdrive boost engaged! You received 225 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 225,
       "buffType": "coin_2x",
@@ -4150,9 +4560,10 @@
     }
   },
   {
-    "code": "BOOST5ZV923",
-    "type": "gem_buff_pack",
+    "code": "BOOST435",
+    "message": "Overdrive boost engaged! You received 250 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 250,
       "buffType": "coin_2x",
@@ -4161,9 +4572,10 @@
     }
   },
   {
-    "code": "BOOST619657",
-    "type": "gem_buff_pack",
+    "code": "BOOST436",
+    "message": "Overdrive boost engaged! You received 150 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 150,
       "buffType": "coin_2x",
@@ -4172,9 +4584,10 @@
     }
   },
   {
-    "code": "BOOST62N685",
-    "type": "gem_buff_pack",
+    "code": "BOOST437",
+    "message": "Overdrive boost engaged! You received 175 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 175,
       "buffType": "coin_2x",
@@ -4183,9 +4596,10 @@
     }
   },
   {
-    "code": "BOOST641327",
-    "type": "gem_buff_pack",
+    "code": "BOOST438",
+    "message": "Overdrive boost engaged! You received 200 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 200,
       "buffType": "coin_2x",
@@ -4194,9 +4608,10 @@
     }
   },
   {
-    "code": "BOOST65F502",
-    "type": "gem_buff_pack",
+    "code": "BOOST439",
+    "message": "Overdrive boost engaged! You received 225 Gems and 15 minutes of 2x Coins!",
     "label": "Overdrive Buff Pack",
+    "type": "gem_buff_pack",
     "reward": {
       "gems": 225,
       "buffType": "coin_2x",
@@ -4205,9 +4620,10 @@
     }
   },
   {
-    "code": "BEAST52Q944",
-    "type": "rare_epic_pet",
+    "code": "BEAST501",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4216,9 +4632,10 @@
     }
   },
   {
-    "code": "BEAST544293",
-    "type": "rare_epic_pet",
+    "code": "BEAST502",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4227,9 +4644,10 @@
     }
   },
   {
-    "code": "BEAST55I959",
-    "type": "rare_epic_pet",
+    "code": "BEAST503",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4238,9 +4656,10 @@
     }
   },
   {
-    "code": "BEAST56W291",
-    "type": "rare_epic_pet",
+    "code": "BEAST504",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4249,9 +4668,10 @@
     }
   },
   {
-    "code": "BEAST58A129",
-    "type": "rare_epic_pet",
+    "code": "BEAST505",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4260,9 +4680,10 @@
     }
   },
   {
-    "code": "BEAST59O593",
-    "type": "rare_epic_pet",
+    "code": "BEAST506",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4271,9 +4692,10 @@
     }
   },
   {
-    "code": "BEAST5B2799",
-    "type": "rare_epic_pet",
+    "code": "BEAST507",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4282,9 +4704,10 @@
     }
   },
   {
-    "code": "BEAST5CG183",
-    "type": "rare_epic_pet",
+    "code": "BEAST508",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4293,9 +4716,10 @@
     }
   },
   {
-    "code": "BEAST5DU401",
-    "type": "rare_epic_pet",
+    "code": "BEAST509",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4304,9 +4728,10 @@
     }
   },
   {
-    "code": "BEAST5F8526",
-    "type": "rare_epic_pet",
+    "code": "BEAST510",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4315,9 +4740,10 @@
     }
   },
   {
-    "code": "BEAST5GM734",
-    "type": "rare_epic_pet",
+    "code": "BEAST511",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4326,9 +4752,10 @@
     }
   },
   {
-    "code": "BEAST5I0231",
-    "type": "rare_epic_pet",
+    "code": "BEAST512",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4337,9 +4764,10 @@
     }
   },
   {
-    "code": "BEAST5JE418",
-    "type": "rare_epic_pet",
+    "code": "BEAST513",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4348,9 +4776,10 @@
     }
   },
   {
-    "code": "BEAST5KS933",
-    "type": "rare_epic_pet",
+    "code": "BEAST514",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4359,9 +4788,10 @@
     }
   },
   {
-    "code": "BEAST5M6221",
-    "type": "rare_epic_pet",
+    "code": "BEAST515",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4370,9 +4800,10 @@
     }
   },
   {
-    "code": "BEAST5NK920",
-    "type": "rare_epic_pet",
+    "code": "BEAST516",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4381,9 +4812,10 @@
     }
   },
   {
-    "code": "BEAST5OY136",
-    "type": "rare_epic_pet",
+    "code": "BEAST517",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4392,9 +4824,10 @@
     }
   },
   {
-    "code": "BEAST5QC674",
-    "type": "rare_epic_pet",
+    "code": "BEAST518",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4403,9 +4836,10 @@
     }
   },
   {
-    "code": "BEAST5RQ817",
-    "type": "rare_epic_pet",
+    "code": "BEAST519",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4414,9 +4848,10 @@
     }
   },
   {
-    "code": "BEAST5T4713",
-    "type": "rare_epic_pet",
+    "code": "BEAST520",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4425,9 +4860,10 @@
     }
   },
   {
-    "code": "BEAST5UI541",
-    "type": "rare_epic_pet",
+    "code": "BEAST521",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4436,9 +4872,10 @@
     }
   },
   {
-    "code": "BEAST5VW552",
-    "type": "rare_epic_pet",
+    "code": "BEAST522",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4447,9 +4884,10 @@
     }
   },
   {
-    "code": "BEAST5XA745",
-    "type": "rare_epic_pet",
+    "code": "BEAST523",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4458,9 +4896,10 @@
     }
   },
   {
-    "code": "BEAST5YO350",
-    "type": "rare_epic_pet",
+    "code": "BEAST524",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4469,9 +4908,10 @@
     }
   },
   {
-    "code": "BEAST602542",
-    "type": "rare_epic_pet",
+    "code": "BEAST525",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4480,9 +4920,10 @@
     }
   },
   {
-    "code": "BEAST61G817",
-    "type": "rare_epic_pet",
+    "code": "BEAST526",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4491,9 +4932,10 @@
     }
   },
   {
-    "code": "BEAST62U161",
-    "type": "rare_epic_pet",
+    "code": "BEAST527",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4502,9 +4944,10 @@
     }
   },
   {
-    "code": "BEAST648594",
-    "type": "rare_epic_pet",
+    "code": "BEAST528",
+    "message": "Hatchling ticket verified! You received a random Epic pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Epic",
       "coins": 20000,
@@ -4513,9 +4956,10 @@
     }
   },
   {
-    "code": "BEAST65M604",
-    "type": "rare_epic_pet",
+    "code": "BEAST529",
+    "message": "Hatchling ticket verified! You received a random Rare pet + 20,000 Coins!",
     "label": "Rare Hatchling Ticket",
+    "type": "rare_epic_pet",
     "reward": {
       "petRarity": "Rare",
       "coins": 20000,
@@ -4524,9 +4968,10 @@
     }
   },
   {
-    "code": "HUGE5D7132",
-    "type": "huge_pet",
+    "code": "HUGE601",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4535,9 +4980,10 @@
     }
   },
   {
-    "code": "HUGE5EL830",
-    "type": "huge_pet",
+    "code": "HUGE602",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4546,9 +4992,10 @@
     }
   },
   {
-    "code": "HUGE5FZ331",
-    "type": "huge_pet",
+    "code": "HUGE603",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4557,9 +5004,10 @@
     }
   },
   {
-    "code": "HUGE5HD586",
-    "type": "huge_pet",
+    "code": "HUGE604",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4568,9 +5016,10 @@
     }
   },
   {
-    "code": "HUGE5IR644",
-    "type": "huge_pet",
+    "code": "HUGE605",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4579,9 +5028,10 @@
     }
   },
   {
-    "code": "HUGE5K5982",
-    "type": "huge_pet",
+    "code": "HUGE606",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4590,9 +5040,10 @@
     }
   },
   {
-    "code": "HUGE5LJ853",
-    "type": "huge_pet",
+    "code": "HUGE607",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4601,9 +5052,10 @@
     }
   },
   {
-    "code": "HUGE5MX802",
-    "type": "huge_pet",
+    "code": "HUGE608",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4612,9 +5064,10 @@
     }
   },
   {
-    "code": "HUGE5OB388",
-    "type": "huge_pet",
+    "code": "HUGE609",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4623,9 +5076,10 @@
     }
   },
   {
-    "code": "HUGE5PP997",
-    "type": "huge_pet",
+    "code": "HUGE610",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4634,9 +5088,10 @@
     }
   },
   {
-    "code": "HUGE5R3338",
-    "type": "huge_pet",
+    "code": "HUGE611",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4645,9 +5100,10 @@
     }
   },
   {
-    "code": "HUGE5SH179",
-    "type": "huge_pet",
+    "code": "HUGE612",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4656,9 +5112,10 @@
     }
   },
   {
-    "code": "HUGE5TV793",
-    "type": "huge_pet",
+    "code": "HUGE613",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4667,9 +5124,10 @@
     }
   },
   {
-    "code": "HUGE5V9168",
-    "type": "huge_pet",
+    "code": "HUGE614",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4678,9 +5136,10 @@
     }
   },
   {
-    "code": "HUGE5WN202",
-    "type": "huge_pet",
+    "code": "HUGE615",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4689,9 +5148,10 @@
     }
   },
   {
-    "code": "HUGE5Y1257",
-    "type": "huge_pet",
+    "code": "HUGE616",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4700,9 +5160,10 @@
     }
   },
   {
-    "code": "HUGE5ZF119",
-    "type": "huge_pet",
+    "code": "HUGE617",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4711,9 +5172,10 @@
     }
   },
   {
-    "code": "HUGE60T778",
-    "type": "huge_pet",
+    "code": "HUGE618",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4722,9 +5184,10 @@
     }
   },
   {
-    "code": "HUGE627579",
-    "type": "huge_pet",
+    "code": "HUGE619",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4733,9 +5196,10 @@
     }
   },
   {
-    "code": "HUGE63L823",
-    "type": "huge_pet",
+    "code": "HUGE620",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4744,9 +5208,10 @@
     }
   },
   {
-    "code": "HUGE64Z585",
-    "type": "huge_pet",
+    "code": "HUGE621",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4755,9 +5220,10 @@
     }
   },
   {
-    "code": "HUGE66D268",
-    "type": "huge_pet",
+    "code": "HUGE622",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4766,9 +5232,10 @@
     }
   },
   {
-    "code": "HUGE67R789",
-    "type": "huge_pet",
+    "code": "HUGE623",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4777,9 +5244,10 @@
     }
   },
   {
-    "code": "HUGE695279",
-    "type": "huge_pet",
+    "code": "HUGE624",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4788,9 +5256,10 @@
     }
   },
   {
-    "code": "HUGE6AJ116",
-    "type": "huge_pet",
+    "code": "HUGE625",
+    "message": "COLOSSAL EGG DROP! You received a random Huge Pet + 150,000 Coins + 150 Gems!",
     "label": "Colossal Egg Ticket",
+    "type": "huge_pet",
     "reward": {
       "petRarity": "Huge",
       "coins": 150000,
@@ -4799,9 +5268,10 @@
     }
   },
   {
-    "code": "CLAN5M8599",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN701",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4810,9 +5280,10 @@
     }
   },
   {
-    "code": "CLAN5NM628",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN702",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4821,9 +5292,10 @@
     }
   },
   {
-    "code": "CLAN5P0277",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN703",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4832,9 +5304,10 @@
     }
   },
   {
-    "code": "CLAN5QE238",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN704",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4843,9 +5316,10 @@
     }
   },
   {
-    "code": "CLAN5RS753",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN705",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4854,9 +5328,10 @@
     }
   },
   {
-    "code": "CLAN5T6245",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN706",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4865,9 +5340,10 @@
     }
   },
   {
-    "code": "CLAN5UK804",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN707",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4876,9 +5352,10 @@
     }
   },
   {
-    "code": "CLAN5VY522",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN708",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4887,9 +5364,10 @@
     }
   },
   {
-    "code": "CLAN5XC380",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN709",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4898,9 +5376,10 @@
     }
   },
   {
-    "code": "CLAN5YQ390",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN710",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4909,9 +5388,10 @@
     }
   },
   {
-    "code": "CLAN604420",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN711",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4920,9 +5400,10 @@
     }
   },
   {
-    "code": "CLAN61I849",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN712",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4931,9 +5412,10 @@
     }
   },
   {
-    "code": "CLAN62W975",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN713",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4942,9 +5424,10 @@
     }
   },
   {
-    "code": "CLAN64A207",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN714",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4953,9 +5436,10 @@
     }
   },
   {
-    "code": "CLAN65O968",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN715",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4964,9 +5448,10 @@
     }
   },
   {
-    "code": "CLAN672657",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN716",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4975,9 +5460,10 @@
     }
   },
   {
-    "code": "CLAN68G787",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN717",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4986,9 +5472,10 @@
     }
   },
   {
-    "code": "CLAN69U699",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN718",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -4997,9 +5484,10 @@
     }
   },
   {
-    "code": "CLAN6B8757",
-    "type": "azuki_exclusive_pet",
+    "code": "CLAN719",
+    "message": "Azuki Ancestor blessing! You received an Exclusive Azuki Pet + 500,000 Coins + 300 Gems!",
     "label": "Azuki Ancestor Gift",
+    "type": "azuki_exclusive_pet",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "coins": 500000,
@@ -5008,9 +5496,10 @@
     }
   },
   {
-    "code": "TITAN5T3934",
-    "type": "titanic_pet",
+    "code": "TITAN801",
+    "message": "TITANIC RELIC UNLOCKED! A massive Titanic Pet has been added to your inventory!",
     "label": "Titanic Relic Ticket",
+    "type": "titanic_pet",
     "reward": {
       "petRarity": "Titanic",
       "coins": 2000000,
@@ -5019,9 +5508,10 @@
     }
   },
   {
-    "code": "TITAN5UH435",
-    "type": "titanic_pet",
+    "code": "TITAN802",
+    "message": "TITANIC RELIC UNLOCKED! A massive Titanic Pet has been added to your inventory!",
     "label": "Titanic Relic Ticket",
+    "type": "titanic_pet",
     "reward": {
       "petRarity": "Titanic",
       "coins": 2000000,
@@ -5030,9 +5520,10 @@
     }
   },
   {
-    "code": "TITAN5VV863",
-    "type": "titanic_pet",
+    "code": "TITAN803",
+    "message": "TITANIC RELIC UNLOCKED! A massive Titanic Pet has been added to your inventory!",
     "label": "Titanic Relic Ticket",
+    "type": "titanic_pet",
     "reward": {
       "petRarity": "Titanic",
       "coins": 2000000,
@@ -5041,9 +5532,10 @@
     }
   },
   {
-    "code": "TITAN5X9236",
-    "type": "titanic_pet",
+    "code": "TITAN804",
+    "message": "TITANIC RELIC UNLOCKED! A massive Titanic Pet has been added to your inventory!",
     "label": "Titanic Relic Ticket",
+    "type": "titanic_pet",
     "reward": {
       "petRarity": "Titanic",
       "coins": 2000000,
@@ -5052,9 +5544,10 @@
     }
   },
   {
-    "code": "TITAN5YN562",
-    "type": "titanic_pet",
+    "code": "TITAN805",
+    "message": "TITANIC RELIC UNLOCKED! A massive Titanic Pet has been added to your inventory!",
     "label": "Titanic Relic Ticket",
+    "type": "titanic_pet",
     "reward": {
       "petRarity": "Titanic",
       "coins": 2000000,
@@ -5063,9 +5556,10 @@
     }
   },
   {
-    "code": "TITAN601461",
-    "type": "titanic_pet",
+    "code": "TITAN806",
+    "message": "TITANIC RELIC UNLOCKED! A massive Titanic Pet has been added to your inventory!",
     "label": "Titanic Relic Ticket",
+    "type": "titanic_pet",
     "reward": {
       "petRarity": "Titanic",
       "coins": 2000000,
@@ -5074,9 +5568,10 @@
     }
   },
   {
-    "code": "TITAN61F327",
-    "type": "titanic_pet",
+    "code": "TITAN807",
+    "message": "TITANIC RELIC UNLOCKED! A massive Titanic Pet has been added to your inventory!",
     "label": "Titanic Relic Ticket",
+    "type": "titanic_pet",
     "reward": {
       "petRarity": "Titanic",
       "coins": 2000000,
@@ -5085,9 +5580,10 @@
     }
   },
   {
-    "code": "TITAN62T588",
-    "type": "titanic_pet",
+    "code": "TITAN808",
+    "message": "TITANIC RELIC UNLOCKED! A massive Titanic Pet has been added to your inventory!",
     "label": "Titanic Relic Ticket",
+    "type": "titanic_pet",
     "reward": {
       "petRarity": "Titanic",
       "coins": 2000000,
@@ -5096,9 +5592,10 @@
     }
   },
   {
-    "code": "TITAN647693",
-    "type": "titanic_pet",
+    "code": "TITAN809",
+    "message": "TITANIC RELIC UNLOCKED! A massive Titanic Pet has been added to your inventory!",
     "label": "Titanic Relic Ticket",
+    "type": "titanic_pet",
     "reward": {
       "petRarity": "Titanic",
       "coins": 2000000,
@@ -5107,9 +5604,10 @@
     }
   },
   {
-    "code": "MYSTIC5WC259",
-    "type": "secret_pet",
+    "code": "MYSTIC901",
+    "message": "SECRET DIMENSIONAL RIFT OPENED! You received a Secret Pet + 10 Million Coins + 1,200 Gems!",
     "label": "Cosmic Secret Rift",
+    "type": "secret_pet",
     "reward": {
       "petRarity": "Secret",
       "coins": 10000000,
@@ -5118,9 +5616,10 @@
     }
   },
   {
-    "code": "MYSTIC5XQ581",
-    "type": "secret_pet",
+    "code": "MYSTIC902",
+    "message": "SECRET DIMENSIONAL RIFT OPENED! You received a Secret Pet + 10 Million Coins + 1,200 Gems!",
     "label": "Cosmic Secret Rift",
+    "type": "secret_pet",
     "reward": {
       "petRarity": "Secret",
       "coins": 10000000,
@@ -5129,9 +5628,10 @@
     }
   },
   {
-    "code": "MYSTIC5Z4565",
-    "type": "secret_pet",
+    "code": "MYSTIC903",
+    "message": "SECRET DIMENSIONAL RIFT OPENED! You received a Secret Pet + 10 Million Coins + 1,200 Gems!",
     "label": "Cosmic Secret Rift",
+    "type": "secret_pet",
     "reward": {
       "petRarity": "Secret",
       "coins": 10000000,

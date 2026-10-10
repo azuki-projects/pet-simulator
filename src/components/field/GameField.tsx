@@ -19,6 +19,7 @@ interface PetWanderer {
   speciesId: string;
   rarity: string;
   shiny: boolean;
+  mutationIcon?: string;
   x: number; // percentage 10% to 85%
   y: number; // percentage 15% to 80%
   targetX: number;
@@ -42,7 +43,15 @@ const PET_SPEECHES = [
   '🌸 Sakura!',
 ];
 
-export const GameField: React.FC = () => {
+interface GameFieldProps {
+  onOpenMiniGames?: () => void;
+  onOpenActiveEffects?: () => void;
+}
+
+export const GameField: React.FC<GameFieldProps> = ({
+  onOpenMiniGames,
+  onOpenActiveEffects,
+}) => {
   const { state, tapGrass, weather, updateSettings } = useGame();
   const [floatingNumbers, setFloatingNumbers] = useState<FloatingNumber[]>([]);
   const nextNumberId = useRef(1);
@@ -71,6 +80,7 @@ export const GameField: React.FC = () => {
             name: pet.name,
             rarity: pet.rarity,
             shiny: pet.shiny,
+            mutationIcon: pet.mutation?.icon,
           };
         }
         // Spread evenly across the field initially
@@ -81,6 +91,7 @@ export const GameField: React.FC = () => {
           speciesId: pet.speciesId,
           rarity: pet.rarity,
           shiny: pet.shiny,
+          mutationIcon: pet.mutation?.icon,
           x: 45 + Math.cos(angle) * 25,
           y: 45 + Math.sin(angle) * 20,
           targetX: 20 + Math.random() * 60,
@@ -311,6 +322,34 @@ export const GameField: React.FC = () => {
             <div className="bg-slate-900/80 backdrop-blur-md px-3 py-1.5 rounded-full border border-slate-700/60 text-xs font-semibold text-amber-300 shadow-md">
               <span>Equipped: {wanderers.length}/{state.upgrades.equipSlots}</span>
             </div>
+
+            {onOpenMiniGames && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onOpenMiniGames();
+                }}
+                className="pointer-events-auto bg-purple-950/85 hover:bg-purple-900 backdrop-blur-md px-2.5 py-1.5 rounded-full border border-purple-400/50 text-xs font-bold text-purple-200 transition-all cursor-pointer flex items-center gap-1 shadow-md active:scale-95"
+                title="Play Arcade Mini-Games"
+              >
+                <span>🎮</span>
+                <span className="hidden sm:inline">Arcade</span>
+              </button>
+            )}
+
+            {onOpenActiveEffects && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onOpenActiveEffects();
+                }}
+                className="pointer-events-auto bg-slate-900/85 hover:bg-slate-850 backdrop-blur-md px-2.5 py-1.5 rounded-full border border-amber-500/40 text-xs font-bold text-amber-300 transition-all cursor-pointer flex items-center gap-1 shadow-md active:scale-95"
+                title="View Potions & Weather"
+              >
+                <span>🧪</span>
+                <span className="hidden sm:inline">Effects</span>
+              </button>
+            )}
           </div>
         </div>
 

@@ -14,12 +14,17 @@ import { WelcomeModal } from './components/welcome/WelcomeModal';
 import { HatchRevealModal } from './components/eggs/HatchRevealModal';
 import { OfflineModal } from './components/offline/OfflineModal';
 import { TrainingModal } from './components/training/TrainingModal';
-import { GlobalChat } from './components/chat/GlobalChat';
+import { LoadingScreen } from './components/common/LoadingScreen';
+import { ActiveEffectsAndWeatherModal } from './components/common/ActiveEffectsAndWeatherModal';
+import { MiniGamesModal } from './components/minigames/MiniGamesModal';
 
 const GameContainer: React.FC = () => {
   const [currentTab, setCurrentTab] = useState<TabType>('field');
-  const [isWelcomeOpen, setIsWelcomeOpen] = useState(true);
+  const [isWelcomeOpen, setIsWelcomeOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [trainingPetId, setTrainingPetId] = useState<string | null>(null);
+  const [activeEffectsTab, setActiveEffectsTab] = useState<'effects' | 'weather' | null>(null);
+  const [isMiniGamesOpen, setIsMiniGamesOpen] = useState(false);
 
   const {
     hatchRevealPet,
@@ -28,12 +33,22 @@ const GameContainer: React.FC = () => {
     clearOfflineSummary,
   } = useGame();
 
+  const handleLoadingComplete = () => {
+    setIsLoading(false);
+    // If not first time, keep welcome closed, else user can open from header
+  };
+
   return (
     <div className="h-[100dvh] max-h-[100dvh] w-full bg-slate-950 text-slate-100 flex flex-col font-sans overflow-hidden">
+      {/* INITIAL LOADING SCREEN */}
+      {isLoading && <LoadingScreen onLoaded={handleLoadingComplete} />}
+
       {/* Top HUD */}
       <Header
         onOpenWelcome={() => setIsWelcomeOpen(true)}
         onOpenGuides={() => setCurrentTab('guides')}
+        onOpenActiveEffects={(tab) => setActiveEffectsTab(tab || 'effects')}
+        onOpenMiniGames={() => setIsMiniGamesOpen(true)}
       />
 
       {/* Main Content Area - Fully touch scrollable on mobile */}
@@ -41,7 +56,12 @@ const GameContainer: React.FC = () => {
         className="flex-1 w-full overflow-y-auto overflow-x-hidden touch-pan-y"
         style={{ WebkitOverflowScrolling: 'touch' }}
       >
-        {currentTab === 'field' && <GameField />}
+        {currentTab === 'field' && (
+          <GameField
+            onOpenMiniGames={() => setIsMiniGamesOpen(true)}
+            onOpenActiveEffects={() => setActiveEffectsTab('effects')}
+          />
+        )}
         {currentTab === 'eggs' && <EggShopAndHatchery />}
         {currentTab === 'inventory' && (
           <InventoryView onOpenTraining={(petId) => setTrainingPetId(petId)} />
@@ -53,9 +73,6 @@ const GameContainer: React.FC = () => {
         {currentTab === 'guides' && <GuidesView />}
       </main>
 
-      {/* Global Realm Live Chat (streams every 3 seconds) */}
-      <GlobalChat />
-
       {/* Bottom Dock Navigation */}
       <Navigation currentTab={currentTab} onSelectTab={setCurrentTab} />
 
@@ -66,14 +83,28 @@ const GameContainer: React.FC = () => {
         onOpenGuides={() => setCurrentTab('guides')}
       />
 
+      {/* Active Potions & Realm Weather Popup */}
+      <ActiveEffectsAndWeatherModal
+        isOpen={activeEffectsTab !== null}
+        defaultTab={activeEffectsTab || 'effects'}
+        onClose={() => setActiveEffectsTab(null)}
+      />
+
+      {/* Mini-Games Arcade Modal */}
+      <MiniGamesModal
+        isOpen={isMiniGamesOpen}
+        onClose={() => setIsMiniGamesOpen(false)}
+        onOpenTraining={() => setCurrentTab('inventory')}
+      />
+
       {/* Rarity Hatch Reveal Modal */}
       <HatchRevealModal
         pet={hatchRevealPet}
         onClose={clearHatchReveal}
       />
 
-      {/* Offline Earnings Summary Popup */}
-      {offlineSummary && (
+      {/* Offline Earnings Summary Popup (shown after loading if offline progress occurred) */}
+      {!isLoading && offlineSummary && (
         <OfflineModal
           secondsAway={offlineSummary.secondsAway}
           coinsEarned={offlineSummary.coinsEarned}

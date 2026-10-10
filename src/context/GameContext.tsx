@@ -128,6 +128,7 @@ function getInitialState(): GameState {
     collectionLog: { [`${initialPet.speciesId}_${initialPet.rarity}`]: true },
     activeBuffs: [],
     instantHatchPotions: 1,
+    mutationPotions: 0,
     arenaStage: 1,
     arenaBestStage: 1,
     lastSavedTimestamp: Date.now(),
@@ -220,6 +221,9 @@ interface GameContextType {
   sellPet: (petId: string) => void;
   toggleLockPet: (petId: string) => void;
   fusePets: (petIds: string[]) => { success: boolean; newPet?: Pet; message?: string };
+  getFusionChance: (petIds: string[]) => { chance: number; base: number; sameRarityBonus: number; luckBonus: number };
+  awardMiniGameReward: (coins: number, gems: number, buffType?: 'coin_2x' | 'luck_2x') => void;
+  weatherTimeRemaining: number;
   buyUpgrade: (type: keyof GameState['upgrades']) => boolean;
   buyMysteryBox: (boxTier: 'bronze' | 'silver' | 'gold') => { type: string; rewardText: string };
   buyGemBuff: (buffType: 'coin_2x' | 'luck_2x' | 'instant_potion' | 'speed_2x') => boolean;
@@ -680,7 +684,27 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }));
   };
 
-  // Pet Fusion (allows any 3 or 5 pets of same or different rarities!)
+  // Calculate live fusion chance based on pet fuseBaseChance
+  const getFusionChance = (petIds: string[]) => {
+    if (petIds.length === 0) return { chance: 0, base: 0, sameRarityBonus: 0, luckBonus: 0 };
+    const selectedPets = state.inventory.filter((p) => petIds.includes(p.id));
+    if (selectedPets.length === 0) return { chance: 0, base: 0, sameRarityBonus: 0, luckBonus: 0 };
+
+    const baseSum = selectedPets.reduce((acc, p) => acc + (p.fuseBaseChance || 25), 0);
+    const allSameRarity = selectedPets.length > 1 && selectedPets.every((p) => p.rarity === selectedPets[0].rarity);
+    const sameRarityBonus = allSameRarity ? 10 : 0;
+    const luckBonus = state.upgrades.luckLevel * 2;
+    const totalChance = Math.min(100, Math.max(15, Math.round(baseSum + sameRarityBonus + luckBonus)));
+
+    return {
+      chance: totalChance,
+      base: Math.round(baseSum),
+      sameRarityBonus,
+      luckBonus,
+    };
+  };
+
+  // Pet Fusion (chance-based fusion supporting same or different rarities!)
   const fusePets = (petIds: string[]) => {
     if (petIds.length !== 3 && petIds.length !== 5) {
       return { success: false, message: 'Select exactly 3 or 5 pets to fuse!' };
@@ -693,6 +717,28 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     if (selectedPets.some((p) => p.locked || p.equipped)) {
       return { success: false, message: 'Cannot fuse locked or equipped pets!' };
+    }
+
+    const { chance } = getFusionChance(petIds);
+    const roll = Math.random() * 100;
+    const isSuccess = roll <= chance;
+
+    if (!isSuccess) {
+      soundManager.playError();
+      const salvageCoins = selectedPets.reduce((acc, p) => acc + Math.round(p.sellPrice * 0.6), 0);
+      const salvageGems = 15 * selectedPets.length;
+
+      setState((prev) => ({
+        ...prev,
+        inventory: prev.inventory.filter((p) => !petIds.includes(p.id)),
+        coins: prev.coins + salvageCoins,
+        gems: prev.gems + salvageGems,
+      }));
+
+      return {
+        success: false,
+        message: `Fusion Unstable (${chance}% Chance)! Pets collapsed into ${salvageCoins.toLocaleString()} Coins & ${salvageGems} Gems as salvage.`,
+      };
     }
 
     // Determine target rarity based on the highest rarity selected
@@ -740,8 +786,32 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
     return {
       success: true,
       newPet,
-      message: `Fused into ${isFiveFuse ? '✨ SHINY ' : ''}${newPet.rarity} ${newPet.name}!`,
+      message: `✨ Fusion Success (${chance}%)! Created ${isFiveFuse ? '✨ SHINY ' : ''}${newPet.rarity} ${newPet.name}!`,
     };
+  };
+
+  // Mini-Game Reward Grant
+  const awardMiniGameReward = (coins: number, gems: number, buffType?: 'coin_2x' | 'luck_2x') => {
+    soundManager.playCoin();
+    setState((prev) => {
+      let newBuffs = [...prev.activeBuffs];
+      if (buffType) {
+        newBuffs.push({
+          id: `minigame_buff_${Date.now()}`,
+          type: buffType,
+          name: buffType === 'coin_2x' ? 'Mini-Game 2x Coins' : 'Mini-Game 2x Luck',
+          multiplier: 2,
+          endsAt: Date.now() + 15 * 60 * 1000,
+        });
+      }
+      return {
+        ...prev,
+        coins: prev.coins + coins,
+        gems: prev.gems + gems,
+        totalCoinsEarned: prev.totalCoinsEarned + coins,
+        activeBuffs: newBuffs,
+      };
+    });
   };
 
   // Upgrades
@@ -907,7 +977,7 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
       return { success: false, message: 'This code has already been redeemed!' };
     }
 
-    const matched = (allCodesData as Array<{ code: string; type: string; label: string; reward: Record<string, unknown> }>).find(
+    const matched = (allCodesData as Array<{ code: string; type: string; label: string; message?: string; reward: Record<string, unknown> }>).find(
       (c) => c.code.toUpperCase() === cleanCode
     );
 
@@ -956,7 +1026,7 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     return {
       success: true,
-      message: `Redeemed ${matched.label}! Received: ${(rew.description as string) || 'Awesome Rewards!'}`,
+      message: matched.message || `Redeemed ${matched.label}! Received: ${(rew.description as string) || 'Awesome Rewards!'}`,
       reward: rew,
     };
   };
@@ -1270,6 +1340,9 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
         sellPet,
         toggleLockPet,
         fusePets,
+        getFusionChance,
+        awardMiniGameReward,
+        weatherTimeRemaining,
         buyUpgrade,
         buyMysteryBox,
         buyGemBuff,

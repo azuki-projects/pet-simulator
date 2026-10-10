@@ -4,13 +4,63 @@ export type RarityTier =
   | 'Rare'
   | 'Epic'
   | 'Legendary'
+  | 'Mythical'
   | 'Huge'
+  | 'Colossal'
+  | 'Behemoth'
   | 'Titanic'
+  | 'Gigantic'
   | 'Secret'
+  | 'Ancient'
   | 'Azuki Exclusive'
+  | 'Relic'
   | 'Immortal'
+  | 'Celestial'
   | 'Primordial'
-  | 'Ultimate Azuki';
+  | 'Astral'
+  | 'Ultimate Azuki'
+  | 'Voidwalker'
+  | 'Nebula'
+  | 'Supernova'
+  | 'Quasar'
+  | 'Galaxy Sovereign'
+  | 'Cosmic God'
+  | 'Hyperion'
+  | 'Chrono Lord'
+  | 'Nether King'
+  | 'Solar Deity'
+  | 'Eclipse'
+  | 'Singularity'
+  | 'Dark Matter'
+  | 'Antimatter'
+  | 'Event Horizon'
+  | 'Quantum'
+  | 'Dimensional'
+  | 'Multiverse'
+  | 'Omnipotent'
+  | 'Genesis'
+  | 'Infinity'
+  | 'Eternal Azuki'
+  | 'Absolute Zero'
+  | 'Abyssal Fiend'
+  | 'Divine Seraph'
+  | 'Arcane Emperor'
+  | 'Sovereign Supreme'
+  | 'Starlight Deity'
+  | 'Chaos Bringer'
+  | 'Order Paragon'
+  | 'Eldritch Sovereign'
+  | 'Zenith'
+  | 'Apex Predator'
+  | 'Godspeed'
+  | 'Nirvana'
+  | 'Transcendence'
+  | 'Reality Bender'
+  | 'Cosmic Creator'
+  | 'Astral Monarch'
+  | 'Azuki Overlord'
+  | 'Primordial God'
+  | 'Infinite Omniverse Azuki';
 
 export interface RarityConfig {
   id: RarityTier;
@@ -23,6 +73,16 @@ export interface RarityConfig {
   order: number;
 }
 
+export interface Mutation {
+  id: string;
+  name: string;
+  icon: string;
+  multiplier: number;
+  color: string;
+  description: string;
+  auraClass?: string;
+}
+
 export interface Pet {
   id: string;
   speciesId: string;
@@ -33,6 +93,8 @@ export interface Pet {
   weightKg: number;
   sellPrice: number;
   traits: string[];
+  mutation?: Mutation;
+  fuseBaseChance?: number; // Base contribution to fusion success
   locked: boolean;
   equipped: boolean;
   shiny: boolean;
@@ -45,8 +107,8 @@ export interface PetSpecies {
   name: string;
   description: string;
   basePower: number;
-  category: 'beast' | 'mythic' | 'azuki' | 'celestial' | 'elemental';
-  iconSvg: string; // SVG path or symbol definition
+  category: 'beast' | 'mythic' | 'azuki' | 'celestial' | 'elemental' | 'water' | 'mythical' | 'cyber' | 'ancient';
+  iconSvg: string;
 }
 
 export interface EggTier {
@@ -110,7 +172,7 @@ export interface Sigil {
   rarity: RarityTier;
   icon: string;
   buffType: 'tap_power' | 'passive_income' | 'luck' | 'speed' | 'arena_attack';
-  buffMultiplier: number; // e.g. 1.25 for +25%
+  buffMultiplier: number;
 }
 
 export interface Quest {
@@ -129,7 +191,7 @@ export interface Quest {
 
 export interface ActiveBuff {
   id: string;
-  type: 'coin_2x' | 'luck_2x' | 'speed_2x' | 'autoclick';
+  type: 'coin_2x' | 'luck_2x' | 'speed_2x' | 'autoclick' | 'mutation_boost';
   name: string;
   multiplier: number;
   endsAt: number;
@@ -150,15 +212,16 @@ export interface RedemptionCode {
   code: string;
   type: string;
   label: string;
+  message?: string;
   reward: CodeReward;
 }
 
 export interface UpgradesState {
-  equipSlots: number; // 3 to 8
-  luckLevel: number; // 0 to 10 (+10% luck per level)
-  hatchSpeedLevel: number; // 0 to 10 (+15% speed per level)
-  tapPowerLevel: number; // 0 to 10 (x2 tap power per level)
-  incubatorSlots: number; // 3 to 8
+  equipSlots: number;
+  luckLevel: number;
+  hatchSpeedLevel: number;
+  tapPowerLevel: number;
+  incubatorSlots: number;
   autoHatcher: boolean;
 }
 
@@ -192,9 +255,10 @@ export interface GameState {
   loginStreak: number;
   lastLoginDate: string;
   claimedToday: boolean;
-  collectionLog: Record<string, boolean>; // e.g. "Cat_Common": true
+  collectionLog: Record<string, boolean>;
   activeBuffs: ActiveBuff[];
   instantHatchPotions: number;
+  mutationPotions: number;
   arenaStage: number;
   arenaBestStage: number;
   lastSavedTimestamp: number;

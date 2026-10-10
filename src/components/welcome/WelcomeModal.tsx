@@ -62,7 +62,7 @@ export const WelcomeModal: React.FC<WelcomeModalProps> = ({
             AZUKI PET SIMULATOR
           </h1>
           <p className="text-xs sm:text-sm text-amber-200/80 mt-1 max-w-sm mx-auto">
-            Collect 35+ mystical species across 12 legendary rarities. Tap, hatch, fuse, and conquer the Arena!
+            Collect 56+ mystical species across 63 legendary rarities & 46 mutations. Tap, hatch, fuse, and conquer the Arena!
           </p>
         </div>
 
@@ -73,7 +73,7 @@ export const WelcomeModal: React.FC<WelcomeModalProps> = ({
             <span className="text-slate-400">Pets Owned</span>
           </div>
           <div>
-            <span className="block font-bold text-cyan-400 text-sm">12</span>
+            <span className="block font-bold text-cyan-400 text-sm">63</span>
             <span className="text-slate-400">Rarities</span>
           </div>
           <div>

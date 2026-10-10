@@ -1,14 +1,29 @@
 import React from 'react';
 import { useGame } from '../../context/GameContext';
 import { formatNumber } from '../../utils/format';
-import { Volume2, VolumeX, Sparkles, Zap, ShieldAlert, Award } from 'lucide-react';
+import {
+  Volume2,
+  VolumeX,
+  Sparkles,
+  Zap,
+  ShieldAlert,
+  Award,
+  Gamepad2,
+  FlaskConical,
+} from 'lucide-react';
 
 interface HeaderProps {
   onOpenWelcome: () => void;
   onOpenGuides: () => void;
+  onOpenActiveEffects?: (tab?: 'effects' | 'weather') => void;
+  onOpenMiniGames?: () => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({ onOpenWelcome }) => {
+export const Header: React.FC<HeaderProps> = ({
+  onOpenWelcome,
+  onOpenActiveEffects,
+  onOpenMiniGames,
+}) => {
   const { state, weather, passiveCoinsPerSec, updateSettings } = useGame();
 
   const toggleSound = () => {
@@ -21,21 +36,25 @@ export const Header: React.FC<HeaderProps> = ({ onOpenWelcome }) => {
       <div className="flex items-center gap-2">
         <button
           onClick={onOpenWelcome}
-          className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-300 font-bold text-sm tracking-wide transition-all shadow-sm group active:scale-95"
+          className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-300 font-bold text-sm tracking-wide transition-all shadow-sm group active:scale-95 cursor-pointer"
           title="Open Welcome Menu"
         >
           <Sparkles className="w-4 h-4 text-amber-400 group-hover:rotate-12 transition-transform" />
           <span>Azuki Pets</span>
         </button>
 
-        {/* Weather Indicator */}
-        <div
-          className="hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-800/80 border border-slate-700/60 text-xs font-medium text-slate-300"
-          title={weather.description}
+        {/* Weather Indicator - CLICKABLE POPUP */}
+        <button
+          onClick={() => onOpenActiveEffects?.('weather')}
+          className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/60 hover:border-amber-400/50 text-xs font-medium text-slate-300 transition-all cursor-pointer shadow-sm active:scale-95"
+          title="Click to view full weather effects & forecast"
         >
           <span>{weather.icon}</span>
-          <span className="font-semibold text-amber-300">{weather.buffText}</span>
-        </div>
+          <span className="font-semibold text-amber-300 hidden sm:inline">{weather.buffText}</span>
+          <span className="text-[10px] text-slate-400 underline decoration-slate-600 sm:ml-0.5">
+            Weather
+          </span>
+        </button>
       </div>
 
       {/* Main Currencies Bar */}
@@ -86,18 +105,40 @@ export const Header: React.FC<HeaderProps> = ({ onOpenWelcome }) => {
 
       {/* Right Controls */}
       <div className="flex items-center gap-1.5">
-        {/* Active Buffs Count */}
-        {state.activeBuffs.length > 0 && (
-          <div className="flex items-center gap-1 px-2 py-1 bg-emerald-500/20 border border-emerald-500/40 text-emerald-300 rounded-lg text-xs font-bold animate-pulse">
-            <ShieldAlert className="w-3.5 h-3.5" />
-            <span>{state.activeBuffs.length} Active</span>
-          </div>
+        {/* Arcade Mini-Games Button */}
+        {onOpenMiniGames && (
+          <button
+            onClick={onOpenMiniGames}
+            className="flex items-center gap-1 px-2 py-1 bg-purple-500/20 hover:bg-purple-500/30 border border-purple-400/40 text-purple-300 rounded-lg text-xs font-bold transition-all cursor-pointer active:scale-95"
+            title="Play Arcade Mini-Games"
+          >
+            <Gamepad2 className="w-3.5 h-3.5" />
+            <span className="hidden sm:inline">Arcade</span>
+          </button>
         )}
+
+        {/* Active Potions / Buffs Indicator - CLICKABLE POPUP */}
+        <button
+          onClick={() => onOpenActiveEffects?.('effects')}
+          className={`flex items-center gap-1 px-2 py-1 rounded-lg text-xs font-bold transition-all cursor-pointer active:scale-95 ${
+            state.activeBuffs.length > 0
+              ? 'bg-emerald-500/20 border border-emerald-500/40 text-emerald-300 animate-pulse'
+              : 'bg-slate-800/80 border border-slate-700/60 text-slate-400 hover:text-white'
+          }`}
+          title="Click to view or drink potions"
+        >
+          {state.activeBuffs.length > 0 ? (
+            <ShieldAlert className="w-3.5 h-3.5" />
+          ) : (
+            <FlaskConical className="w-3.5 h-3.5" />
+          )}
+          <span>{state.activeBuffs.length > 0 ? `${state.activeBuffs.length} Buffs` : 'Potions'}</span>
+        </button>
 
         {/* Sound toggle */}
         <button
           onClick={toggleSound}
-          className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors"
+          className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors cursor-pointer"
           title={state.settings.soundEnabled ? 'Mute SFX' : 'Unmute SFX'}
         >
           {state.settings.soundEnabled ? (

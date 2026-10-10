@@ -33,6 +33,7 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
     toggleLockPet,
     renamePet,
     fusePets,
+    getFusionChance,
   } = useGame();
 
   const [activeTab, setActiveTab] = useState<'owned' | 'fusion' | 'collection'>('owned');
@@ -47,6 +48,8 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
   // Fusion selection
   const [fusionSelectedIds, setFusionSelectedIds] = useState<string[]>([]);
   const [fusionMessage, setFusionMessage] = useState<{ success: boolean; text: string } | null>(null);
+
+  const fusionOdds = getFusionChance(fusionSelectedIds);
 
   // Filtered and sorted pets
   const filteredPets = state.inventory
@@ -255,16 +258,35 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
 
                     {/* Pet Info */}
                     <div>
-                      <div className="font-extrabold text-xs text-white truncate">
-                        {pet.name}
+                      <div className="font-extrabold text-xs text-white truncate flex items-center gap-1">
+                        {pet.mutation && (
+                          <span className="text-[10px]" title={pet.mutation.name}>
+                            {pet.mutation.icon}
+                          </span>
+                        )}
+                        <span className="truncate">{pet.name}</span>
                       </div>
 
-                      <div
-                        className="text-[10px] font-bold uppercase truncate"
-                        style={{ color: rarityConfig.color }}
-                      >
-                        {pet.rarity}
+                      <div className="flex items-center justify-between gap-1">
+                        <span
+                          className="text-[10px] font-bold uppercase truncate"
+                          style={{ color: rarityConfig.color }}
+                        >
+                          {pet.rarity}
+                        </span>
+                        {pet.fuseBaseChance && (
+                          <span className="text-[9px] font-mono font-bold text-cyan-300">
+                            +{pet.fuseBaseChance}%
+                          </span>
+                        )}
                       </div>
+
+                      {pet.mutation && (
+                        <div className="mt-0.5 px-1 py-0.2 rounded bg-purple-950/60 border border-purple-500/30 text-[9px] font-bold text-purple-200 truncate flex items-center gap-0.5">
+                          <span>{pet.mutation.name}</span>
+                          <span className="text-purple-300 font-extrabold">x{pet.mutation.multiplier}</span>
+                        </div>
+                      )}
 
                       <div className="mt-1 flex items-center justify-between text-[10px] text-amber-300 font-semibold tabular-nums">
                         <span className="flex items-center gap-0.5">
@@ -362,9 +384,52 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
 
             {/* Fusion Action Button & Live Preview */}
             <div className="mt-4">
+              {/* LIVE FUSION SUCCESS CHANCE GAUGE */}
+              {fusionSelectedIds.length > 0 && (
+                <div className="mb-3 p-3 rounded-2xl bg-slate-900 border border-slate-700 space-y-2">
+                  <div className="flex items-center justify-between text-xs">
+                    <span className="font-bold text-slate-300 flex items-center gap-1.5">
+                      <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                      Fusion Success Probability:
+                    </span>
+                    <span
+                      className={`font-black text-sm tabular-nums ${
+                        fusionOdds.chance >= 75
+                          ? 'text-emerald-400'
+                          : fusionOdds.chance >= 50
+                          ? 'text-amber-400'
+                          : 'text-rose-400'
+                      }`}
+                    >
+                      {fusionOdds.chance}% CHANCE
+                    </span>
+                  </div>
+
+                  {/* Probability Bar */}
+                  <div className="w-full h-2.5 bg-slate-950 rounded-full overflow-hidden border border-slate-800">
+                    <div
+                      className={`h-full transition-all duration-300 rounded-full ${
+                        fusionOdds.chance >= 75
+                          ? 'bg-gradient-to-r from-emerald-500 to-teal-400'
+                          : fusionOdds.chance >= 50
+                          ? 'bg-gradient-to-r from-amber-500 to-yellow-400'
+                          : 'bg-gradient-to-r from-rose-500 to-orange-500'
+                      }`}
+                      style={{ width: `${fusionOdds.chance}%` }}
+                    />
+                  </div>
+
+                  <div className="flex flex-wrap items-center justify-between text-[10px] text-slate-400 font-mono">
+                    <span>Base: +{fusionOdds.base}%</span>
+                    <span>Same Tier Bonus: +{fusionOdds.sameRarityBonus}%</span>
+                    <span>Luck Boost: +{fusionOdds.luckBonus}%</span>
+                  </div>
+                </div>
+              )}
+
               {(fusionSelectedIds.length === 3 || fusionSelectedIds.length === 5) && (
                 <div className="mb-3 p-2.5 rounded-xl bg-amber-500/15 border border-amber-500/40 text-xs font-bold text-amber-200 flex items-center justify-between">
-                  <span>Guaranteed Outcome:</span>
+                  <span>Target Outcome on Success:</span>
                   <span className="font-black text-amber-300">
                     {fusionSelectedIds.length === 5 ? '✨ SHINY ' : ''}
                     {
@@ -395,9 +460,9 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
                 <Layers className="w-4 h-4" />
                 <span>
                   {fusionSelectedIds.length === 5
-                    ? '✨ FUSE 5 PETS (SHINY UPGRADE)'
+                    ? `✨ FUSE 5 PETS (${fusionOdds.chance}% SUCCESS)`
                     : fusionSelectedIds.length === 3
-                    ? 'FUSE 3 PETS (NEXT RARITY)'
+                    ? `FUSE 3 PETS (${fusionOdds.chance}% SUCCESS)`
                     : 'Select Any 3 or 5 Pets (Different Rarities Allowed)'}
                 </span>
               </button>
@@ -433,7 +498,7 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
                     <div
                       key={pet.id}
                       onClick={() => handleToggleFusionSelect(pet.id)}
-                      className={`p-2 rounded-xl border cursor-pointer transition-all text-center ${
+                      className={`p-2 rounded-xl border cursor-pointer transition-all text-center relative ${
                         isSelected
                           ? 'bg-amber-500/20 border-amber-400 shadow-md ring-1 ring-amber-400'
                           : 'bg-slate-950/80 border-slate-800 hover:border-slate-700'
@@ -446,6 +511,9 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
                         style={{ color: rarityCfg.color }}
                       >
                         {pet.rarity}
+                      </div>
+                      <div className="text-[9px] font-mono text-cyan-300 font-extrabold mt-0.5">
+                        +{pet.fuseBaseChance || 25}% Chance
                       </div>
                     </div>
                   );
@@ -603,7 +671,7 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
             </div>
 
             {/* Stats Card */}
-            <div className="bg-slate-950 rounded-2xl p-3 border border-slate-800 grid grid-cols-2 gap-2 text-xs mb-4">
+            <div className="bg-slate-950 rounded-2xl p-3 border border-slate-800 grid grid-cols-2 gap-2 text-xs mb-3">
               <div>
                 <span className="text-slate-500 block text-[10px]">Current Passive</span>
                 <span className="font-extrabold text-amber-300 text-sm">
@@ -616,7 +684,29 @@ export const InventoryView: React.FC<{ onOpenTraining: (petId: string) => void }
                   ⚖️ {selectedPet.weightKg} kg
                 </span>
               </div>
+              <div className="col-span-2 pt-1 border-t border-slate-900 flex items-center justify-between text-[11px]">
+                <span className="text-slate-400">Base Fusion Chance Contribution:</span>
+                <span className="font-black text-cyan-300">+{selectedPet.fuseBaseChance || 25}%</span>
+              </div>
             </div>
+
+            {/* Mutation Card if present */}
+            {selectedPet.mutation && (
+              <div className="p-3 rounded-2xl bg-gradient-to-r from-purple-950/60 to-fuchsia-950/40 border border-purple-500/40 mb-3 text-xs">
+                <div className="flex items-center justify-between mb-1">
+                  <span className="font-black text-purple-200 flex items-center gap-1.5">
+                    <span className="text-base">{selectedPet.mutation.icon}</span>
+                    <span>{selectedPet.mutation.name} Mutation</span>
+                  </span>
+                  <span className="px-1.5 py-0.5 rounded bg-purple-500/20 text-purple-300 font-extrabold text-[10px]">
+                    x{selectedPet.mutation.multiplier} Multiplier
+                  </span>
+                </div>
+                <p className="text-[11px] text-slate-300 leading-snug">
+                  {selectedPet.mutation.description}
+                </p>
+              </div>
+            )}
 
             {/* Level up section */}
             <div className="bg-slate-950/60 rounded-2xl p-3 border border-slate-800/80 mb-4 flex items-center justify-between text-xs">

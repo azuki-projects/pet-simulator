@@ -18,11 +18,11 @@ export const GuidesView: React.FC = () => {
         </p>
       </div>
 
-      {/* SECTION 1: 12 RARITY TIERS BREAKDOWN TABLE */}
+      {/* SECTION 1: 63 RARITY TIERS BREAKDOWN TABLE */}
       <div className="bg-slate-900/90 rounded-3xl border border-slate-800 p-6 shadow-xl">
         <h3 className="text-lg font-black text-white mb-4 flex items-center gap-2">
           <Sparkles className="w-5 h-5 text-amber-400" />
-          <span>All 12 Pet Rarity Tiers & Multipliers</span>
+          <span>All 63 Pet Rarity Tiers & Multipliers</span>
         </h3>
 
         <div className="overflow-x-auto">

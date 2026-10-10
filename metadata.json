@@ -1,6 +1,6 @@
 {
   "name": "Azuki Pet Simulator",
-  "description": "Pure offline pet collection game with 12 rarity tiers, 35+ pet species, egg hatching, fusions, battle arena, rebirths, and 500 redemption codes.",
+  "description": "Offline pet collection adventure with 63 rarity tiers, 55+ pet species, 46 mutations, cross-rarity fusion with dynamic odds, minigames, full currency suffixes (K to Centillion), and 500 editable codes.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
