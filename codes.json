@@ -10,14 +10,14 @@
     }
   },
   {
-    "code": "AZUKI",
+    "code": "AZUKIPREM",
     "type": "azuki_exclusive_pet",
     "label": "Azuki Clan Gift",
     "reward": {
       "petRarity": "Azuki Exclusive",
       "species": "Azuki Spirit",
-      "coins": 50000,
-      "gems": 100,
+      "coins": 1000000000000,
+      "gems": 100000000,
       "description": "Exclusive Azuki Spirit Pet + 50k Coins + 100 Gems"
     }
   },
